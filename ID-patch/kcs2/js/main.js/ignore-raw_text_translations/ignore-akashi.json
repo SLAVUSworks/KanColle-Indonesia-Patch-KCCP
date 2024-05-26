@@ -1,0 +1,20 @@
+{
+  "提督、明石の工廠へようこそ！": "Selamat datang di Akashi",
+  "どの装備の改修を試みますか？": "Arsenal, pilih salah satu!",
+  "を、改修しますね！": "akan ditingkatkan!",
+  "この装備を改修するには": "Anda perlu membuka kunci bagian ini",
+  "同装備のロック解除が必要です。": "peralatan sebelum memperbaikinya.",
+  "この改修に必要となる": "Anda tidak memiliki cukup potongan",
+  "(無改修)": "peralatan ini: (Tidak ditingkatkan)",
+  "が足りません。": "",
+  "この改修には、無改修の": "Anda memerlukan ini: (Belum ditingkatkan)",
+  "が必要です。": "",
+  "（※改修で消費します）": "（※Akan dikonsumsi）",
+  "同改修消費可能装備数": "Tersedia saat ini:",
+  "改修に成功しました！": "Peningkatan berhasil!",
+  "改修に失敗しました...。": "Perbaikan gagal...",
+  "装備改修中…": "Memperbaiki peralatan ini...",
+  "現在選択された装備": "Peralatan yang dipilih saat ini:",
+  "は、これ以上の改修ができません。": "tidak dapat ditingkatkan lebih lanjut.",
+  "dummy": "forNoComma"
+}
