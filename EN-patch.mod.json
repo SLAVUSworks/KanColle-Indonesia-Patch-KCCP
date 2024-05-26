@@ -1,10 +1,10 @@
 {
-  "name": "KC Patch Indonesia",
-  "version": "0.1 Alpha",
-  "authors": ["Agha Slavus","Uteru-teru"],
+  "name": "KanColle English Patch",
+  "version": "3.22.15",
+  "authors": ["Inochi-PM", "Oradimi", "Tibo"],
   "requireScripts": true,
-  "url": "https://github.com/SLAVUSworks/KanColle-Indonesia-Patch-KCCP",
-  "updateUrl": "https://raw.githubusercontent.com/SLAVUSworks/KanColle-Indonesia-Patch-KCCP/master/EN-patch.mod.json",
+  "url": "https://github.com/Oradimi/KanColle-English-Patch-KCCP",
+  "updateUrl": "https://raw.githubusercontent.com/Oradimi/KanColle-English-Patch-KCCP/master/EN-patch.mod.json",
   "downloadUrl": "https://github.com/Oradimi/KanColle-English-Patch-KCCP/archive/master.zip",
   "size": 322823402
 }
