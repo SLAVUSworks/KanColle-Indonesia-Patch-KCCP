@@ -2,7 +2,7 @@
 
 set SCRIPT="%TEMP%\%RANDOM%-%RANDOM%-%RANDOM%-%RANDOM%.vbs"
 echo Set oWS = WScript.CreateObject("WScript.Shell") >> %SCRIPT%
-echo sLinkFile = "%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\kc_en_patch_update_checker.lnk" >> %SCRIPT%
+echo sLinkFile = "%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\kc_id_patch_update_checker.lnk" >> %SCRIPT%
 echo Set oLink = oWS.CreateShortcut(sLinkFile) >> %SCRIPT%
 echo oLink.TargetPath = "%~dp0\launch_bat.vbs" >> %SCRIPT%
 echo oLink.WorkingDirectory = "%~dp0" >> %SCRIPT%

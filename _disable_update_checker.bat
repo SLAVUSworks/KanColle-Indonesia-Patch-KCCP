@@ -1,6 +1,6 @@
 @echo off
 
-del """%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\kc_en_patch_update_checker.lnk"""
+del """%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\kc_id_patch_update_checker.lnk"""
 
 echo Update checker disabled!
 echo Make sure to stay updated by running the updater regularly,
