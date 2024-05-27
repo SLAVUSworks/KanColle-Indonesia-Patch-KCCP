@@ -10,18 +10,18 @@
 	"\\[中堅少佐\\]": "[Shōsa-]",
 	"\\[新米少佐\\]": "[Shōsa--]",
 
-	"隻 編成$": "-ship fleet",
-	"^（現在保有数×": "(Currently available: ×",
-	"に装備が改修更新されました！": "\nobtained from this improvement!",
+	"隻 編成$": "-Armada Kapal",
+	"^（現在保有数×": "(Tersedia saat ini: ×",
+	"に装備が改修更新されました！": "\nTelah didapat!",
 
-	"を獲得しました！$": "obtained!",
-	"を入手しました！$": "obtained!",
-	"を手に入れました。": " obtained.",
-	"を([0-9]+)個手に入れました。": " obtained (×$1).",
+	"を獲得しました！$": "Diperoleh!",
+	"を入手しました！$": "Diperoleh!",
+	"を手に入れました。": " Didapat.",
+	"を([0-9]+)個手に入れました。": " Diperoleh (×$1).",
 
 	"×([0-9]+)枚": "×$1",
 
-	"」を開発完了！": "」development complete!",
+	"」を開発完了！": "」Pengembangan selesai!",
 
 	"dummy": "forNoComma"
 }
