@@ -11,10 +11,10 @@
 	"(/?)対爆(\\+|\\-)": "$1AB$2",
 	"(/?)迎撃(\\+|\\-)": "$1Int$2",
 
-	"^射程 短": "Range S",
-	"^射程 中": "Range M",
-	"^射程 長": "Range L",
-	"^射程 超長": "Range VL",
+	"^射程 短": "Jarak S",
+	"^射程 中": "Jarak M",
+	"^射程 長": "Jarak L",
+	"^射程 超長": "Jarak VL",
 
 	"dummy": "forNoComma"
 }

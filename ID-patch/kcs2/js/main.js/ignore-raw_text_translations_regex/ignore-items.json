@@ -1,10 +1,10 @@
 {
 	"_item_id_53": "_item_id_53",
-	"最大保有艦娘数\\＋10\\(最大([0-9]+)\\)。最大保有アイテム数\\＋40\\(最大([0-9]+)\\)。": "Maximum number of ships\n+10 (max $1).\nMaximum number of items\n+40 (max $2).",
+	"最大保有艦娘数\\＋10\\(最大([0-9]+)\\)。最大保有アイテム数\\＋40\\(最大([0-9]+)\\)。": "Banyak Kapal Maksimum\n+10 (max $1).\nBanyak Item Maksimum\n+40 (max $2).",
 
 	"_payitem_id_16": "_payitem_id_16",
-	"母港拡張 艦隊の艦娘保有数を\n\\+10隻分拡張できます！\n※ご注意※ 最大計([0-9]+)隻まで！\n装備枠も自動的に\\+40増加しま\nす。": "Port Expansion:\nIncrease the number of ships\nyou can keep by 10!\n※Warning※ Max $1 ships!\nEquipment capacity will also\nincrease by 40.",
-	"母港拡張 艦隊の艦娘保有数を\\+10隻分拡張できます！\n※ご注意※ 最大計([0-9]+)隻まで！ 装備枠も自動的に\\+40増加します。": "Port Expansion: Increase the number of ships you can keep by 10!\n※Warning※ Max $1 ships! Equipment capacity will also increase by 40.",
+	"母港拡張 艦隊の艦娘保有数を\n\\+10隻分拡張できます！\n※ご注意※ 最大計([0-9]+)隻まで！\n装備枠も自動的に\\+40増加しま\nす。":  "Perluasan Pangkalan:\n penambahan 10 kapal yang dapat disimpan! \n※Peringatan!※ Maximum $1 kapal!\nKapasitas equipment juga\nmeningkat sebanyak 40.",
+	"母港拡張 艦隊の艦娘保有数を\\+10隻分拡張できます！\n※ご注意※ 最大計([0-9]+)隻まで！ 装備枠も自動的に\\+40増加します。":  "Perluasan Pangkalan: penambahan 10 kapal yang dapat disimpan \n※Warning※ Max $1 ships! Kapasitas equipment juga \nmeningkat sebanyak 40.",
 
 	"高速修復材×": "Repair Bucket×",
 	"高速建造材×": "Flamethrower×",
@@ -22,7 +22,7 @@
 	"応急修理要員(TL in equipment)×": "sample×",
 	"応急修理女神(TL in equipment)×": "sample×",
 	"特注家具職人×": "Furniture Fairy×",
-	"母港拡張×": "Port Expansion Set×",
+	"母港拡張×":  "Perluasan Pangkalan Set×",
 	"給糧艦「間宮」×": "「Mamiya」Food Supply×",
 	"書類一式＆指輪×": "Letter and Ring×",
 	"艦娘からのチョコ×": "Chocolate from Shipgirls×",
