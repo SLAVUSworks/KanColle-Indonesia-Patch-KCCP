@@ -4,24 +4,25 @@ $ProgressPreference = 'SilentlyContinue';
 If ($PSversion -gt 4) {
 	[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 }
-Write-Host "Welcome to the Browser Cache Clearer!";
-Write-Host "Clearing your browser cache is mandatory for it to use the latest patch assets.";
-Write-Host "You can use this little program to do just this!";
-Write-Host "It will also restart KCCacheProxy to reload your mods' data if running.";
+Write-Host "Selamat datang di Browser Cache Clearer!";
+Write-Host "Membersihkan cache browser Anda adalah wajib agar dapat menggunakan aset patch terbaru.";
+Write-Host "Anda dapat menggunakan program kecil ini untuk melakukan hal ini!";
+Write-Host "Ini juga akan memulai ulang KCCacheProxy untuk memuat ulang data mod Anda jika berjalan.";
 Write-Host "";
-Write-Host "Every browser/viewer selected by you will be closed," -ForegroundColor Yellow;
-Write-Host "make sure your ongoing work/game is saved/done!" -ForegroundColor Yellow;
-Write-Host "You can restore your session afterwards by manually restarting your browser/viewer." -ForegroundColor Yellow;
-Write-Host "If you don't want to close your browser, please clear your cache manually." -ForegroundColor Yellow;
+Write-Host "Setiap peramban/penampil yang Anda pilih akan ditutup," -ForegroundColor yellow;
+Write-Host "pastikan pekerjaan/game yang sedang berjalan telah tersimpan/selesai!" -ForegroundColor yellow;
+Write-Host "Anda dapat memulihkan sesi Anda setelah itu dengan memulai ulang browser/penampil Anda secara manual." -ForegroundColor yellow;
+Write-Host "Jika Anda tidak ingin menutup browser Anda, silakan hapus cache Anda secara manual." -ForegroundColor yellow;
 Write-Host "";
-Write-Host "When manually clearing your cache, make sure to set the Time range to All time," -ForegroundColor Yellow;
-Write-Host "and select only Cached images and files." -ForegroundColor Yellow;
+Write-Host "Saat membersihkan cache secara manual, pastikan untuk mengatur rentang Waktu ke Semua waktu," -ForegroundColor yellow;
+Write-Host "dan pilih hanya gambar dan file yang di-cache." -ForegroundColor yellow;
 Write-Host "";
-Write-Host "If your browser/viewer isn't in the list,";
-Write-Host "you will have to clear your browser/viewer's cache manually.";
-Write-Host "Contact oradimi (formerly Oradimi#8947) on Discord to add support to your browser/viewer.";
-Write-Host "Furthermore, portable browsers (with variable paths) are currently unsupported.";
+Write-Host "Jika browser/penampil Anda tidak ada dalam daftar,";
+Write-Host "Anda harus menghapus cache browser/penampil Anda secara manual.";
+Write-Host "Hubungi oradimi (sebelumnya Oradimi#8947) di Discord untuk menambahkan dukungan pada peramban/penampil Anda.";
+Write-Host "Selain itu, peramban portabel (dengan jalur variabel) saat ini tidak didukung.";
 Write-Host "";
+
 Try {
 	$loadFile = Get-Content -Raw -Path .\ID-patch-manager\browserprefs.json -ErrorAction Stop | ConvertFrom-Json; # Load the version.json file and convert as a readonly powershell object
 	[System.Collections.ArrayList] $TaskkillList += $loadFile;
@@ -39,20 +40,20 @@ Try {
 	};
 	$currentBrowsers = $currentBrowsers.TrimEnd(", ") + ".";
 } Catch {
-	Write-Host "Preference File Not Found!";
+	Write-Host "Berkas preferensi tidak ditemukan!!";
 	Write-Host "";
 	$TaskkillList = New-Object System.Collections.ArrayList($null);
 };
 
 If ($TaskkillList.Count -eq 0) {
-	Write-Host "-> Close this window to cancel.";
-	Write-Host "-> Press any key to proceed to the selection...";
+	Write-Host "-> Tutup jendala ini untuk membatalkan.";
+	Write-Host "-> Tekan tombol apa saja untuk lanjut ke pemilihan...";
 	$PressedKey = $Host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown").VirtualKeyCode
 } Else {
 	Write-Host "Currently Selected Browsers:" $currentBrowsers;
-	Write-Host "-> Press Escape to modify saved browsers.";
-	Write-Host "-> Close this window to cancel.";
-	Write-Host "-> Press Enter to clear selected browsers' cache.";
+	Write-Host "-> Tekan ESCAPE untuk mengubah browser yang tersimpan.";
+	Write-Host "-> Tutup jendala ini untuk membatalkan.";
+	Write-Host "-> Tekan ENTER untuk menghapus cache browser.";
 	Do {
 		$PressedKey = $Host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown").VirtualKeyCode
 		If ($PressedKey -eq 13) {
@@ -73,8 +74,8 @@ If ($PressedKey -eq 27 -or $TaskkillList.Count -eq 0) {
 	Write-Host "";
 	Do {
 		If ($TaskkillList.Count -eq 0) {
-			Write-Host "-> Use the keys above to add/remove a browser in the clear list.";
-			Write-Host "-> Press Enter to clear everything (No Preferences Saved)."
+			Write-Host "-> Gunakan Kunci di atas untuk menambah/menghapus ke dalam list hapus cache.";
+			Write-Host "-> Tekan ENTER untuk memberishkan segalanya ( Tidak ada preferensi yang disimpan )."
 		} Else {
 			$currentBrowsers = "";
 			ForEach ($k in $TaskkillList) {
@@ -90,32 +91,32 @@ If ($PressedKey -eq 27 -or $TaskkillList.Count -eq 0) {
 				}
 			};
 			$currentBrowsers = $currentBrowsers.TrimEnd(", ") + ".";
-			Write-Host "Currently Selected Browsers:" $currentBrowsers;
-			Write-Host "-> Use the keys above to add/remove a browser in the clear list.";
-			Write-Host "-> Press Enter to clear the selected browsers.";
+			Write-Host "Peramban-peramban yang sekarang terpilih:" $currentBrowsers;
+			Write-Host "-> Gunakan Kunci di atas untuk menambah/menghapus ke dalam list hapus cache.";
+			Write-Host "-> Tekan ENTER untuk menghapus cache peramban yang terpilih.";
 		};
 		Do {
 			$PressedKey = $Host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown").VirtualKeyCode
 		} Until ($FullList -contains $PressedKey -or $PressedKey -eq 13)
 		If ((-not ($TaskkillList -contains $PressedKey)) -and ($FullList -contains $PressedKey)) {
 			[System.Collections.ArrayList] $TaskkillList += $PressedKey;
-			$Notice1 = "Added"
-			$Notice2 = "to remove"
+			$Notice1 = "Ditambahkan"
+			$Notice2 = "untuk dihapus"
 		} ElseIf ($TaskkillList -contains $PressedKey) {
 		[System.Collections.ArrayList] $TaskkillList.Remove($PressedKey);
-		$Notice1 = "Removed"
-		$Notice2 = "to add again"
+		$Notice1 = "Terhapus"
+		$Notice2 = "untuk ditambahkan lagi"
 		}
 		Write-Host "";
 		Switch ($PressedKey) {
-			69 {Write-Host "$Notice1 Poi. Press [E] $Notice2."}
-			82 {Write-Host "$Notice1 ElectronicObserver. Press [R] $Notice2."}
-			84 {Write-Host "$Notice1 Chrome/Chromium. Press [T] $Notice2."}
-			89 {Write-Host "$Notice1 Microsoft Edge. Press [Y] $Notice2."}
-			85 {Write-Host "$Notice1 Opera (Normal and GX). Press [U] $Notice2."}
-			73 {Write-Host "$Notice1 Brave. Press [I] $Notice2."}
-			79 {Write-Host "$Notice1 Vivaldi. Press [O] $Notice2."}
-			80 {Write-Host "$Notice1 Yandex. Press [P] $Notice2."}
+			69 {Write-Host "$Notice1 Poi. Tekan [E] $Notice2."}
+			82 {Write-Host "$Notice1 ElectronicObserver. Tekan [R] $Notice2."}
+			84 {Write-Host "$Notice1 Chrome/Chromium. Tekan [T] $Notice2."}
+			89 {Write-Host "$Notice1 Microsoft Edge. Tekan [Y] $Notice2."}
+			85 {Write-Host "$Notice1 Opera (Normal and GX). Tekan [U] $Notice2."}
+			73 {Write-Host "$Notice1 Brave. Tekan [I] $Notice2."}
+			79 {Write-Host "$Notice1 Vivaldi. Tekan [O] $Notice2."}
+			80 {Write-Host "$Notice1 Yandex. Tekan [P] $Notice2."}
 		}
 	} Until ($PressedKey -eq 13);
 };
@@ -201,7 +202,7 @@ ForEach ($Browser in $Browsers) {
 			$Items | % { 
 				If (Test-Path "$Folder\$Profile\$_") {
 					Remove-Item "$Folder\$Profile\$_" -Recurse -Force;
-					Write-Host "Found $Browser cache in $Profile folder! Successfully deleted." -ForegroundColor Green;
+					Write-Host "Menemukan cache $Browser di folder $Profile! Berhasil dihapus." -ForegroundColor Green;
 					$CacheDeleted = $true
 				}
 			}
@@ -215,7 +216,7 @@ ForEach ($OperaBrowser in $OperaBrowsers) {
 		$Items | % { 
 			If (Test-Path "$OperaFolder\$_") {
 				Remove-Item "$OperaFolder\$_" -Recurse -Force;
-				Write-Host "Found $OperaBrowser cache! Successfully deleted." -ForegroundColor Green;
+				Write-Host "Menemukan cache $OperaBrowser! Berhasil dihapus." -ForegroundColor Green;
 				$CacheDeleted = $true
 			}
 		}
@@ -231,7 +232,7 @@ If (Test-Path "$EOFolder") {
 		$Items | % { 
 			If (Test-Path "$EOFolder\$Profile\$_") {
 				Remove-Item "$EOFolder\$Profile\$_" -Recurse -Force;
-				Write-Host "Found $EOBrowser cache in $Profile folder! Successfully deleted." -ForegroundColor Green;
+				Write-Host "Menemukan cache $EOBrowser di folder $Profile! Berhasil dihapus." -ForegroundColor Green;
 				$CacheDeleted = $true
 			}
 		}
@@ -242,7 +243,7 @@ If (Test-Path "$PoiFolder") {
 	$Items | % { 
 		If (Test-Path "$PoiFolder\$_") {
 			Remove-Item "$PoiFolder\$_" -Recurse -Force;
-			Write-Host "Found $PoiBrowser cache! Successfully deleted." -ForegroundColor Green;
+			Write-Host "Menemukan cache $PoiBrowser! Berhasil dihapus." -ForegroundColor Green;
 			$CacheDeleted = $true
 		}
 	}
@@ -252,16 +253,16 @@ If (Test-Path "$PoiFolder") {
 Write-Host "";
 Try {
 	& $kccpPath $null *> $null
-	Write-Host "KCCacheProxy was successfully relaunched!" -ForegroundColor Green
+	Write-Host "Berhasil menjalankan ulang KCCacheProxy!" -ForegroundColor Green
 } Catch {
-	Write-Host "KCCacheProxy was not launched. Please restart it manually." -ForegroundColor Yellow
+	Write-Host "Tidak dapat menjalankan KCCacheProxy. Tolong buka kembali secara manual." -ForegroundColor Yellow
 };
 
 If ($CacheDeleted) {
-	Write-Host "Browser/viewer cache cleared!" -ForegroundColor Green
+	Write-Host "Cache Browser/Viewer dihapus!" -ForegroundColor Green
 } Else {
-	Write-Host "Failed to locate any cache folder, or no cache to delete." -ForegroundColor Yellow
+	Write-Host "Gagal untuk menempatkan folder cache, atau tidak ada cache yang dihapus." -ForegroundColor Yellow
 };
 
 Write-Host "";
-Write-Host "You may now press any key to exit."
+Write-Host "Kamu sekarang bisa menekan apapun untuk keluar."

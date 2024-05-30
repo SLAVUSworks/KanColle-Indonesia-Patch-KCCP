@@ -1,22 +1,22 @@
-# Simple updater to update the English Patch;
-$host.ui.RawUI.WindowTitle = "KanColle English Patch Quick Updater v0.6.0";
+# Simple updater to update the Indonesia Patch;
+$host.ui.RawUI.WindowTitle = "KanColle Indonesia Patch Quick Updater v0.6.0";
 $PSversion = $PSVersionTable.PSVersion.Major;
 If ($PSversion -lt 5) {
-	Write-Host "Welcome to the KanColle English Patch Quick Updater v0.6.0!";
+	Write-Host "Selamat datang di KanColle Indonesia Patch Quick Updater v0.6.0!";
 	Write-Host "";
-	Write-Host "Your version of PowerShell is not supported." -ForegroundColor Red;
+	Write-Host "Versi PowerShell Anda tidak didukung." -ForegroundColor Red;
 	Write-Host "";
-	Write-Host "You can download a supported version here:";
+	Write-Host "Anda dapat mengunduh versi yang didukung di sini:";
 	Write-Host "https://www.microsoft.com/en-us/download/details.aspx?id=54616";
-	Write-Host "Click on download, and select either `"Win7-KB3191566-x86.zip`"";
-	Write-Host "or `"Win8.1-KB3191564-x86.msu`" depending on your operating system.";
-	Write-Host "Then, run the downloaded files.";
-	Write-Host "The cache clearer does work on your version,";
-	Write-Host "so you may proceed to clear your cache now if you would like.";
+	Write-Host "Klik unduh, dan pilih `"Win7-KB3191566-x86.zip`"";
+	Write-Host "atau `"Win8.1-KB3191564-x86.msu`" tergantung pada sistem operasi Anda.";
+	Write-Host "Kemudian, jalankan file yang telah diunduh.";
+	Write-Host "Cache clearer telah bekerja pada versi Anda,";
+	Write-Host "jadi Anda dapat melanjutkan untuk menghapus cache Anda sekarang jika Anda mau.";
 	Write-Host "";
-	Write-Host "-> Hold the Ctrl key and click on the link to open it.";
-	Write-Host "-> Close this window to not proceed to clear your cache.";
-	Write-Host "-> Press any key (except Ctrl) to proceed to clear your cache...";
+	Write-Host "-> Tahan tombol Ctrl dan klik tautan untuk membukanya.";
+	Write-Host "-> Tutup jendela ini untuk tidak melanjutkan menghapus cache Anda.";
+	Write-Host "-> Tekan sembarang tombol (kecuali Ctrl) untuk melanjutkan menghapus cache Anda...";
 	Do {
 		$PressedKey = $Host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown").VirtualKeyCode
 	} Until ($PressedKey -ne 17)
@@ -26,40 +26,40 @@ If ($PSversion -lt 5) {
 }
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;
 
-Write-Host "Welcome to the KanColle English Patch Quick Updater v0.6.0!";
-Write-Host "You can use this updater to update your patch from v3.01 or newer to the latest version.";
+Write-Host "Selamat datang di Pembaru Cepat Patch Bahasa Indonesia KanColle v0.6.0!";
+Write-Host "Anda dapat menggunakan updater ini untuk memperbarui patch Anda dari v3.01 atau yang lebih baru ke versi terbaru.";
 Write-Host "";
-Write-Host "This program may set off some anti-viruses." -ForegroundColor Yellow;
-Write-Host "These are false positives and can be disregarded." -ForegroundColor Yellow;
-Write-Host "I would recommend whitelisting the English Patch folder in your anti-virus." -ForegroundColor Yellow;
-Write-Host "If anything ever happens, a zip containing the necessary files have been provided." -ForegroundColor Yellow;
-Write-Host "You can unzip it in place to restore the manager to its original state." -ForegroundColor Yellow;
+Write-Host "Program ini dapat memicu beberapa anti-virus." -ForegroundColor Yellow;
+Write-Host "Ini adalah hasil positif palsu dan dapat diabaikan." -ForegroundColor Yellow;
+Write-Host "Saya sarankan untuk memasukkan folder English Patch ke dalam daftar putih di anti-virus Anda." -ForegroundColor Yellow;
+Write-Host "Jika terjadi sesuatu, sebuah zip yang berisi file-file yang diperlukan telah disediakan." -ForegroundColor Yellow;
+Write-Host "Anda dapat mengekstrak zip-nya untuk mengembalikan manajer ke kondisi semula." -ForegroundColor Yellow;
 Write-Host "";
-Write-Host "Make sure you're connected to the Internet before updating!" -ForegroundColor Yellow;
-Write-Host "This can take a while, be sure to wait until the end!" -ForegroundColor Yellow;
+Write-Host "Pastikan Anda terhubung ke Internet sebelum memperbarui!" -ForegroundColor Yellow;
+Write-Host "Ini bisa memakan waktu cukup lama, pastikan Anda menunggu sampai selesai!" -ForegroundColor Yellow;
 Write-Host "";
 Try {
 	$previousVersion = Get-Content -Raw -Path .\ID-patch-manager\download_interrupted.txt -ErrorAction Stop; # Load the download_interrupted.txt file as an array of its lines;
 	$downloadInterrupted = $true;
-	Write-Host "The updater was not closed correctly on its last use." -ForegroundColor Red;
-	Write-Host "It will restart the download from v$previousVersion." -ForegroundColor Red;
+	Write-Host "Updater tidak ditutup dengan benar penggunaan terakhir kali." -ForegroundColor Red;
+	Write-Host "Ini akan mengulang download dari v$previousVersion." -ForegroundColor Red;
 	Write-Host "";
 } Catch {
 	$downloadInterrupted = $false
 };
-Write-Host "-> Close this window to cancel.";
-Write-Host "-> Press any key to update...";
+Write-Host "-> Tutup jendela ini untuk membatalkan.";
+Write-Host "-> Tekan tombol apa saja untuk memperbarui...";
 $null = $Host.UI.RawUI.ReadKey('NoEcho,IncludeKeyDown');
 
 Write-Host "";
-Write-Host "Updating version.json...";
+Write-Host "Memperbarui version.json...";
 
 # Gets and tweaks the current path. Will only work if the script is ran from the master directory;
 $pwd = Get-Location | select -ExpandProperty Path; 
 $pwd = $pwd.replace("\","/") + "/";
 
 # Gets the online path and the file containing diff info;
-$gitPath = "https://raw.githubusercontent.com/Oradimi/KanColle-English-Patch-KCCP/master/";
+$gitPath = "https://raw.githubusercontent.com/SLAVUSworks/KanColle-Indonesia-Patch-KCCP/master/";
 Invoke-WebRequest ($gitPath + "version.json") -O ($pwd + "version.json"); 
 
 Write-Host "";
@@ -111,12 +111,12 @@ $verSkip = $j - 1;
 
 # If current version is the same as the latest;
 If ($j -eq 0) {
-	Write-Host "No new version available, or invalid current version." -ForegroundColor Yellow;
-	Write-Host "If you are still using v1 or v2 of the English Patch," -ForegroundColor Yellow;
-	Write-Host "please get the latest version from GitHub." -ForegroundColor Yellow;
+	Write-Host "Tidak ada versi baru yang tersedia, atau versi saat ini tidak valid." -ForegroundColor Yellow;
+	Write-Host "Jika Anda masih menggunakan v1 atau v2 dari Patch Bahasa Inggris," -ForegroundColor Yellow;
+	Write-Host "Silakan dapatkan versi terbaru dari GitHub." -ForegroundColor Yellow;
 	Write-Host "";
-	Write-Host "-> Close this window to not proceed to clear your cache.";
-	Write-Host "-> Press any key to proceed to clear your cache...";
+	Write-Host "-> Tutup jendela ini untuk tidak melanjutkan menghapus cache Anda.";
+	Write-Host "-> Tekan sembarang tombol untuk melanjutkan menghapus cache Anda...";
 	$null = $Host.UI.RawUI.ReadKey('NoEcho,IncludeKeyDown');
 	Write-Host "";
 	Write-Host "";
@@ -138,7 +138,7 @@ For ($i = $verSkip; $i -ge 1; $i--) {
 };
 
 Write-Host "";
-Write-Host "Updating...";
+Write-Host "Memperbarui...";
 # Deletes then downloads each mentionned file, version after version;
 $sw = [System.Diagnostics.Stopwatch]::StartNew();
 $fileHistory = New-Object System.Collections.ArrayList($null);
@@ -146,7 +146,7 @@ For ($i = 0; $i -le $verSkip; $i++) {
 	$a = $i + 1;
 	$b = $verSkip + 1;
 	$u = $versionContent[$versionContent.count - $b + $i].version;
-	Write-Progress -Activity 'Updating the English Patch...' -Status "Update $a out of $b (v$u)" `
+	Write-Progress -Activity 'Memperbarui Indonesia Patchnya...' -Status "Update $a out of $b (v$u)" `
 		-PercentComplete ([Math]::Floor($a / $b * 100))
 	$j = 0;
     ForEach ($uri in $delURI[$i]) {
@@ -154,7 +154,7 @@ For ($i = 0; $i -le $verSkip; $i++) {
 			if ($sw.Elapsed.TotalMilliseconds -ge 200) {
 				$c = $j + 1;
 				$d = $delURI[$i].count;
-				Write-Progress -ID 1 -Activity 'Deleting files...' -Status "File $c out of $d" `
+				Write-Progress -ID 1 -Activity 'Menghapus file...' -Status "File $c out of $d" `
 					-PercentComplete ([Math]::Floor($c / $d * 100))
 				$sw.Restart();
 				$fileHistory | Out-Host;
@@ -170,7 +170,7 @@ For ($i = 0; $i -le $verSkip; $i++) {
 		if ($sw.Elapsed.TotalMilliseconds -ge 200) {
 			$c = $k + 1;
 			$d = $addURI[$i].count;
-			Write-Progress -ID 1 -Activity 'Downloading files...' -Status "File $c out of $d" `
+			Write-Progress -ID 1 -Activity 'Mengunduh files...' -Status "File $c out of $d" `
 				-PercentComplete ([Math]::Floor($c / $d * 100))
 			$sw.Restart();
 			$fileHistory | Out-Host;
@@ -179,10 +179,10 @@ For ($i = 0; $i -le $verSkip; $i++) {
 		Try {
 			$ProgressPreference = 'SilentlyContinue';
 			Invoke-WebRequest ($gitPath + $uri) -O (New-Item -Path ($pwd + $uri) -Force);
-			$fileHistory += "Downloaded $uri";
+			$fileHistory += "Terunduh $uri";
 			$ProgressPreference = 'Continue'
 		} Catch [System.Net.WebException] {
-			$fileHistory += "Skipped $uri (File deleted from server)"
+			$fileHistory += "Dilewat $uri (File terhapus dari server)"
 			$ProgressPreference = 'Continue';
 		};
 		$k++

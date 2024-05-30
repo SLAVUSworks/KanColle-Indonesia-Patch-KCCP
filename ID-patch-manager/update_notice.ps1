@@ -1,5 +1,5 @@
 # Notifies the user of an update to the English Patch;
-$host.ui.RawUI.WindowTitle = "KanColle English Patch Update Notice";
+$host.ui.RawUI.WindowTitle = "KanColle Indonesia Patch Update Notice";
 $ProgressPreference = 'SilentlyContinue';
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;
 
@@ -28,11 +28,11 @@ If ($verCur.length -lt 6) {
 $versionContent = Get-Content -Raw -Path version.json | ConvertFrom-Json;
 $verLat = $versionContent.version[$versionContent.count - 1];
 
-Write-Host "An update to the KanColle English Patch is available (v$verLat).";
-Write-Host "(You are currently using v$verCur)";
-Write-Host "Would you like to download it now?";
-Write-Host "-> Close this window to cancel. (No)";
-Write-Host "-> Press any key to launcher the updater... (Yes)";
+Write-Host "Sebuah update untuk Patch Bahasa Inggris KanColle telah tersedia (v$verLat).";
+Write-Host "(Anda sedang menggunakan v$verCur)";
+Write-Host "Apakah Anda ingin mendownloadnya sekarang?";
+Write-Host "-> Tutup jendela ini untuk membatalkan. (No)";
+Write-Host "-> Tekan sembarang tombol untuk menjalankan pembaru... (Yes)";
 
 $PressedKey = $Host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown").VirtualKeyCode;
 

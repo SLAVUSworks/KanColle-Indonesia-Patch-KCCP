@@ -1,5 +1,5 @@
 # Checks if there's an update for the English Patch;
-$host.ui.RawUI.WindowTitle = "KanColle English Patch Update Checker";
+$host.ui.RawUI.WindowTitle = "KanColle Indonesia Patch Update Checker";
 $ProgressPreference = 'SilentlyContinue';
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;
 
@@ -8,7 +8,7 @@ $pwd = Get-Location | select -ExpandProperty Path;
 $pwd = $pwd.replace("\","/") + "/";
 
 # Gets the online path and the file containing diff info;
-$gitPath = "https://raw.githubusercontent.com/Oradimi/KanColle-English-Patch-KCCP/master/";
+$gitPath = "https://raw.githubusercontent.com/SLAVUSworks/KanColle-Indonesia-Patch-KCCP/master/";
 Invoke-WebRequest ($gitPath + "version.json") -O ($pwd + "version.json"); 
 
 # Gets the current version;

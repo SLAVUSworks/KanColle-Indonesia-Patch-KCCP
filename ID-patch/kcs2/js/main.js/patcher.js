@@ -17,14 +17,14 @@ for (const file of rawTextTLRegex)
 module.exports = (file, contents) => {
     return contents + `;
 var KCT_TLS = ${JSON.stringify(translations)}
-var KCT_REPLACEMIDTS = ${JSON.stringify(regexreplacements)}
+var KCT_REPLACEMENTS = ${JSON.stringify(regexreplacements)}
 
 Object.defineProperty(PIXI.Text.prototype, "text", {  get() { return this._text; }, set(text) {
         const replaced = KCT_TLS[text]
         if (replaced !== undefined)
             text = replaced
         else if (text != null) {
-            for (const [from, to] of KCT_REPLACEMIDTS)
+            for (const [from, to] of KCT_REPLACEMENTS)
                 text = text.replace(new RegExp(from, "gm"), to)
         }
         text = String(text === '' || text === null || text === undefined ? ' ' : text);

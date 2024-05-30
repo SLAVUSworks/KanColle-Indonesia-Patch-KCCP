@@ -3,8 +3,8 @@ $JSON = @(); # Designate a powershell object that is writable
 $JSON += $loadFile; # Add the loaded file into this powershell object
 $new = "" | Select version, del, add; # Create a new powershell object with these values
 $i = $JSON.Count - 1; # Find the last element in the array
-Write-Host "The current version is"$JSON[$i].version; # Print out the last version found
-$new.version = Read-Host "Please enter new version"; # User enters the new version
+Write-Host "Versi sekarang adalah"$JSON[$i].version; # Print out the last version found
+$new.version = Read-Host "Tolong masukan versi baru"; # User enters the new version
 [string[]]$arrayFromFile = Get-Content -Path '.\diff.txt'; # Grab the diff file and convert into a string array. If you just grab it, it will convert into a PS object but that's not necessary
 $listDel = @(); # Creates an array for deleted files
 $listAdd = @(); # Creates an array for added files

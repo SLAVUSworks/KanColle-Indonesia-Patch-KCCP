@@ -1,10 +1,10 @@
 @echo off
 
-del """%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\kc_en_patch_update_checker.lnk"""
+del """%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\kc_id_patch_update_checker.lnk"""
 
-echo Update checker disabled!
-echo Make sure to stay updated by running the updater regularly,
-echo or keep yourself informed through the English Patch Discord!
+echo Pemeriksa pembaruan dinonaktifkan!
+echo Pastikan untuk tetap diperbarui dengan menjalankan updater secara teratur,
+echo atau terus dapatkan informasi melalui English Patch Discord!
 echo ~
-echo You can now close this window.
+echo Anda sekarang dapat menutup jendela ini.
 pause
