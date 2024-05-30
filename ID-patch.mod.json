@@ -1,0 +1,10 @@
+{
+  "name": "KC Patch Indonesia",
+  "version": "0.1 Alpha",
+  "authors": ["Agha Slavus","Uteru-teru"],
+  "requireScripts": true,
+  "url": "https://github.com/SLAVUSworks/KanColle-Indonesia-Patch-KCCP",
+  "updateUrl": "https://raw.githubusercontent.com/SLAVUSworks/KanColle-Indonesia-Patch-KCCP/master/ID-patch.mod.json",
+  "downloadUrl": "https://github.com/Oradimi/KanColle-English-Patch-KCCP/archive/master.zip",
+  "size": 322823402
+}

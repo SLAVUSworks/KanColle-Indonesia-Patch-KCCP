@@ -1,7 +1,7 @@
 # KanColle English Patch [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/C0C76IFME)
 ## [Instructions](https://docs.google.com/document/d/1S3-Uv9wbuv2lAkjc_5oH6T069rb7QlTP90W2AHoNPzg/edit?usp=sharing)
 
-<img src="https://raw.githubusercontent.com/Oradimi/KanColle-English-Patch-KCCP/master/EN-patch/kcs2/img/title/title_main.png/patched/title_main_004.png"
+<img src="https://raw.githubusercontent.com/Oradimi/KanColle-English-Patch-KCCP/master/ID-patch/kcs2/img/title/title_main.png/patched/title_main_004.png"
   align="right" alt="English KanColle icon" width="300">
 
 This link above redirects to a document that contains everything you need to get everything working,
@@ -45,5 +45,5 @@ as well as for making some code specially to patch raw text in a stable way.\
 To Dark Sentinel for contributing (LBAS menu aircraft names, world icons, server banners, and more).\
 To Amelek for the chuuha/taiha cut-in texture jigsaw splitter.\
 To Globalnet for the quick updater, and for general technical help.\
-To the EN wiki staff and the kc3 staff for freely providing a good part of the translations.\
+To the ID wiki staff and the kc3 staff for freely providing a good part of the translations.\
 To all the others in the Discord server for regularly suggesting new things to fix or translate in the patch.

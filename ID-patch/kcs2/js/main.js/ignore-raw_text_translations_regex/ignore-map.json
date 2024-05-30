@@ -1,0 +1,10 @@
+{
+	"\nを入手しました！": "\nDiperoleh!",
+	"\nを落としてしまいました…。": "\nTelah hilang...",
+	"電探が役立って、被害を抑えられた！": "Kerusakan minim karena radar!",
+
+	" 「([ ぁ-んァ-ン一-龯A-Za-z0-9_-]*)」旗艦": "$1's flagship,",
+	" 「([ ぁ-んァ-ン一-龯A-Za-z0-9_-]*)」が大破しました。": "$1,\nTelah mengalami kerusakan berat.",
+
+	"dummy": "forNoComma"
+}
