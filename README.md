@@ -1,49 +1,49 @@
-# KanColle English Patch [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/C0C76IFME)
-## [Instructions](https://docs.google.com/document/d/1S3-Uv9wbuv2lAkjc_5oH6T069rb7QlTP90W2AHoNPzg/edit?usp=sharing)
+# KanColle Bahasa Indonesia Patch [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/C0C76IFME)
+## [Instruksi](https://docs.google.com/document/d/1S3-Uv9wbuv2lAkjc_5oH6T069rb7QlTP90W2AHoNPzg/edit?usp=sharing)
 
 <img src="https://raw.githubusercontent.com/Oradimi/KanColle-English-Patch-KCCP/master/ID-patch/kcs2/img/title/title_main.png/patched/title_main_004.png"
   align="right" alt="English KanColle icon" width="300">
 
-This link above redirects to a document that contains everything you need to get everything working,
-whether it be as a new player, as a returning or active player, on PC, Mac, Linux or Android.
-It also contains some useful resources for the game itself, and an early walkthrough if you feel lost.
-## [Discord server](https://discord.gg/krMeMKB)
-- **Popular:** Over 1,400 members and growing! Join a lively community.
-- **Helpful:** Need help with installing the game or figuring out mechanics? We're here to help!
-- **Links:** Want to explore the other existing KanColle Discords? There's a gateway channel!
-- **Ping Squad role:** Receive pings for polls and update notices about the patch.
-- **Ping Squad+ role:** Receive pings for game updates, and all the other news!
-- **DMM Festival role:** Get reminded about DMM Festivals to get free DMM points!
+Tautan di atas mengarahkan ke dokumen yang berisi semua yang Anda perlukan untuk membuat semuanya berfungsi,
+baik sebagai pemain baru, pemain lama maupun pemain aktif, di PC, Mac, Linux, atau Android.
+Dokumen ini juga berisi beberapa sumber daya yang berguna untuk permainan itu sendiri, dan panduan awal jika Anda merasa tersesat.
+## [Server Discord](https://discord.gg/krMeMKB)
+- **Populer:** Lebih dari 1.400 anggota dan terus bertambah! Bergabunglah dengan komunitas yang hidup.
+- **Bantuan:** Butuh bantuan untuk menginstal game atau memahami mekanisme? Kami di sini untuk membantu!
+- **Tautan:** Ingin menjelajahi KanColle Discord lain yang sudah ada? Ada saluran gateway!
+- Peran **Ping Squad:** Menerima ping untuk jajak pendapat dan memperbarui pemberitahuan tentang patch.
+- Peran **Ping Squad+:** Menerima ping untuk pembaruan game, dan semua berita lainnya!
+- Peran **Festival DMM:** Dapatkan pemberitahuan tentang Festival DMM untuk mendapatkan poin DMM gratis!
 
-## Features
-##### What it is
-This patch is composed of translated textures to be used by the assets modifier of [KCCacheProxy](https://github.com/Tibowl/KCCacheProxy/wiki/Installation-and-setup).\
-It also supports raw text patching, such as ship names, quests, flavor text etc.\
-[Showcase in images](https://imgur.com/a/oAB9f7x) (Screenshots from v3.14.1 to v3.20.3)
+## Fitur
+##### Apa itu
+Patch ini terdiri dari tekstur yang diterjemahkan untuk digunakan oleh pengubah aset [KCCacheProxy](https://github.com/Tibowl/KCCacheProxy/wiki/Installation-and-setup).\.
+Patch ini juga mendukung penambalan teks mentah, seperti nama kapal, misi, teks rasa, dll.
+[Tampilkan dalam gambar] (https://imgur.com/a/oAB9f7x) (Tangkapan layar dari v3.14.1 hingga v3.20.3)
 
-##### How it works
-Unlike other patching methods like MITM, POI's "My Cache" folder or ShimakazeGo's "Cache Mode hack",\
-KCCacheProxy compares the original sprites with the sprites in sprite sheets,\
-and injects the patched resources into these sprite sheets on the fly.\
-That means patches using this method will not break after updates to the game.
+##### Bagaimana cara kerjanya
+Tidak seperti metode penambalan lainnya seperti MITM, folder "My Cache" milik POI atau "Cache Mode hack" milik ShimakazeGo, \.
+KCCacheProxy membandingkan sprite asli dengan sprite di lembar sprite,\
+dan menyuntikkan sumber daya yang ditambal ke dalam lembar sprite ini dengan cepat.
+Itu berarti patch yang menggunakan metode ini tidak akan rusak setelah pembaruan game.
 
-##### English Patch specificities and disclaimer
-This patch does not interfere with any of the files that communicate directly with the game servers.\
-Everything that is altered by the patch is local: english textures will be stored locally on your PC,\
-and raw text is patched just before it gets rendered on your screen.\
-There is currently nothing within the KanColle client to detect such changes.\
-Modifiying game assets is technically against the Terms of Service, so use at your own risk.
+##### Bahasa Indonesia Spesifikasi dan penafian patch
+Patch ini tidak mengganggu file apa pun yang berkomunikasi langsung dengan server game.\.
+Semua yang diubah oleh patch ini bersifat lokal: tekstur bahasa Indonesia akan disimpan secara lokal di PC Anda,\ dan
+dan teks mentah akan ditambal sebelum ditampilkan di layar Anda.
+Saat ini tidak ada sesuatu di dalam klien KanColle yang dapat mendeteksi perubahan tersebut.
+Memodifikasi aset game secara teknis bertentangan dengan Ketentuan Layanan, jadi gunakanlah dengan risiko Anda sendiri.
 
-##### What is currently translated
-Currently, everything that is essential to comfortable gameplay,\
-or that is very often seen in the game, is translated. This even includes event flavor text.
+##### Apa yang saat ini diterjemahkan
+Saat ini, segala sesuatu yang penting untuk gameplay yang nyaman,\
+atau yang sangat sering terlihat di dalam game, telah diterjemahkan. Hal ini bahkan termasuk teks rasa acara.
 
-## Special Thanks
+## Ucapan Terima Kasih Khusus
 
-To Tibo for implementing new ways to patch the game's textures with KCCacheProxy,\
-as well as for making some code specially to patch raw text in a stable way.\
-To Dark Sentinel for contributing (LBAS menu aircraft names, world icons, server banners, and more).\
-To Amelek for the chuuha/taiha cut-in texture jigsaw splitter.\
-To Globalnet for the quick updater, and for general technical help.\
-To the ID wiki staff and the kc3 staff for freely providing a good part of the translations.\
-To all the others in the Discord server for regularly suggesting new things to fix or translate in the patch.
+Kepada Tibo yang telah mengimplementasikan cara-cara baru untuk menambal tekstur game dengan KCCacheProxy,\
+serta membuat beberapa kode khusus untuk menambal teks mentah dengan cara yang stabil.
+Kepada Dark Sentinel yang telah berkontribusi (nama pesawat menu LBAS, ikon dunia, spanduk server, dan banyak lagi).
+Kepada Amelek untuk pembagi jigsaw tekstur potongan chuuha/taiha.\
+Kepada Globalnet untuk pembaharu cepat, dan untuk bantuan teknis secara umum.\
+Kepada staf wiki EN dan staf kc3 yang telah menyediakan sebagian besar terjemahannya secara gratis.
+Kepada semua orang di server Discord yang secara teratur menyarankan hal-hal baru untuk diperbaiki atau diterjemahkan dalam patch.
