@@ -1,4 +1,5 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
-ID-patch-manager/browserprefs.json
-ID-patch/kcs2/js/main.js/ignore-raw_text_translations/ignore-__custom.json
+*.psd
+EN-patch-manager/browserprefs.json
+EN-patch/kcs2/js/main.js/ignore-raw_text_translations/ignore-__custom.json
