@@ -1,7 +1,7 @@
 # KanColle Bahasa Indonesia Patch [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/C0C76IFME)
 ## [Instruksi](https://docs.google.com/document/d/1S3-Uv9wbuv2lAkjc_5oH6T069rb7QlTP90W2AHoNPzg/edit?usp=sharing)
 
-<img src="https://raw.githubusercontent.com/SLAVUSworks/KanColle-Indonesia-Patch-KCCP/master/ID-patch/kcs2/img/title/title_main.png/patched/title_main_004.png"
+<img src="https://raw.githubusercontent.com/SLAVUSworks/KanColle-Indonesia-Patch-KCCP/development/ID-patch/kcs2/img/title/title_main.png/patched/title_main_004.png"
   align="right" alt="English KanColle icon" width="300">
 
 Tautan di atas mengarahkan ke dokumen yang berisi semua yang Anda perlukan untuk membuat semuanya berfungsi,
