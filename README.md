@@ -1,5 +1,4 @@
 # Project KC Patch Indonesia 
-## [Instructions](https://docs.google.com/document/d/1S3-Uv9wbuv2lAkjc_5oH6T069rb7QlTP90W2AHoNPzg/edit?usp=sharing)
 
 ## Kilas
 
