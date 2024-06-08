@@ -4,7 +4,7 @@
   "authors": ["Agha Slavus", "Uteru-teru"],
   "requireScripts": true,
   "url": "https://github.com/SLAVUSworks/KanColle-Indonesia-Patch-KCCP",
-  "updateUrl": "https://raw.githubusercontent.com/SLAVUSworks/KanColle-Indonesia-Patch-KCCP/master/ID-patch.mod.json",
-  "downloadUrl": "https://github.com/SLAVUSworks/KanColle-Indonesia-Patch-KCCP/archive/master.zip",
+  "updateUrl": "https://raw.githubusercontent.com/SLAVUSworks/KanColle-Indonesia-Patch-KCCP/development/ID-patch.mod.json",
+  "downloadUrl": "https://github.com/SLAVUSworks/KanColle-Indonesia-Patch-KCCP/archive/development.zip",
   "size": 322823402
 }
