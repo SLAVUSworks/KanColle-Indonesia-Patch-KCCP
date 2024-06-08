@@ -13689,5 +13689,24 @@
       "ID-patch/kcs2/img/title/title2.png/patched.png",
       "ID-patch/kcs2/js/main.js/ignore-raw_text_translations/ignore-_quests.json"
     ]
+  },
+  {
+    "version": "3.22.16",
+    "del": [],
+    "add": [
+      "ID-patch.mod.json",
+      "ID-patch/kcs2/img/title/title2.png/patched.png",
+      "ID-patch/kcs2/js/main.js/ignore-raw_text_translations/ignore-_equips.json",
+      "ID-patch/kcs2/js/main.js/ignore-raw_text_translations/ignore-_quests.json",
+      "ID-patch/kcs2/js/main.js/ignore-raw_text_translations/ignore-_ships.json",
+      "ID-patch/kcs2/js/main.js/ignore-raw_text_translations_regex/ignore-_equips.json",
+      "ID-patch/kcs2/js/main.js/ignore-raw_text_translations_regex/ignore-_ships.json",
+      "ID-patch/kcs2/js/main.js/ignore-raw_text_translations_regex/ignore-remodel.json",
+      "ID-patch/kcs2/resources/slot/btxt_flat/0530_3046.png/original.png",
+      "ID-patch/kcs2/resources/slot/btxt_flat/0530_3046.png/patched.png",
+      "ID-patch/kcs2/resources/slot/remodel/0530_5503.png/original.png",
+      "ID-patch/kcs2/resources/slot/remodel/0530_5503.png/patched.png",
+      "README.md"
+    ]
   }
 ]
