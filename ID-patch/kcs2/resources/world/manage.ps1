@@ -1,5 +1,5 @@
 # Define the directory containing your files
-$sourceDirectory = "D:\Temporary Project Folder\KanColle-Indonesia-Patch-KCCP\ID-patch\kcs2\img\sally\alert\PNG"
+$sourceDirectory = "D:\Temporary Project Folder\KanColle-Indonesia-Patch-KCCP\ID-patch\kcs2\resources\world\PNG"
 
 # Get all files in the directory
 $files = Get-ChildItem -Path $sourceDirectory -File
