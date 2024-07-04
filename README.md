@@ -2,7 +2,7 @@
 <small>a &nbsp;p r o j e c t &nbsp;b y</small>
 
 <p align="center" width="100%">
-    <img src="https://github.com/SLAVUSworks/KanColle-Indonesia-Patch-KCCP/blob/development/Non-Game%20Assets/banner.png?raw=true" alt="centered image" width="50%" />
+    <img src="https://github.com/SLAVUSworks/KanColle-Indonesia-Patch-KCCP/blob/master/Non-Game%20Assets/banner.png?raw=true" alt="centered image" width="50%" />
 </p>
 
 <p align="center" width="100%"><small>S l a v u s&nbsp; × &nbsp;B c R &nbsp;I n d o n e s i a &nbsp;K a n C o l l e &nbsp;P a t c h</small></p>
