@@ -46,12 +46,12 @@ Untuk proses Instalasi/Patching sama persis dengan [KanColle-English-Patch-KCCP]
 <b>↑ Skip jika sudah punya akun DMM dan sudah ter-register KanColle ↑</b>
 <li>B.0 = Pastikan bahan bahan diatas sudah ada semua.</li>
 <li>B.1 = Masuk menu settings KC3</li>
-<li>B.2 = Cari DMM Regional Block</li>
+<li>B.2 = Cari DMM Regional Block <a href="https://raw.githubusercontent.com/SLAVUSworks/KanColle-Indonesia-Patch-KCCP/development/Non-Game%20Assets/KC%20-%20Install%20Desktop/B.2.png">(Gambar)</a></li>
 <li>B.3 = Install KCCacheProxy</li>
-<li>B.4 = Buka menu settings KCCP (Gambar B.4) (Untuk KCCP Running tiap startup, bisa diliat di tray windows)</li>
+<li>B.4 = Buka menu settings KCCP <a href="https://raw.githubusercontent.com/SLAVUSworks/KanColle-Indonesia-Patch-KCCP/development/Non-Game%20Assets/KC%20-%20Install%20Desktop/B.4.png">(Gambar)</a> (Untuk KCCP Running tiap startup, bisa diliat di tray windows)</li>
 <li>B.5 = Extract KCCP Patch English</li>
-<li>B.6 = Buka menu settings KCCP, Scroll bawah, Add a Patcher, Cari File di folder Patch yang berakhiran *.mod.json (Gambar B.6.1 dan B.6.2)</li>
-<li>B.7 = Buka browser, lalu klik ekstensi switchyomega > options > menu proxy > inget step 5, disitu ada port dan hostname, isiin ke proxy servers bagian http persis kyk di KCCP nya (special case, misal port lu kepake buat hal lain, ganti aja angka nya) > apply changes (Gambar B.7)</li>
+<li>B.6 = Buka menu settings KCCP, Scroll bawah, Add a Patcher, Cari File di folder Patch yang berakhiran *.mod.json <a href="https://raw.githubusercontent.com/SLAVUSworks/KanColle-Indonesia-Patch-KCCP/development/Non-Game%20Assets/KC%20-%20Install%20Desktop/B.6.1.png">(Gambar 1)</a> <a href="https://raw.githubusercontent.com/SLAVUSworks/KanColle-Indonesia-Patch-KCCP/development/Non-Game%20Assets/KC%20-%20Install%20Desktop/B.6.2.png">(Gambar 2)</a></li>
+<li>B.7 = Buka browser, lalu klik ekstensi switchyomega > options > menu proxy > inget step 5, disitu ada port dan hostname, isiin ke proxy servers bagian http persis kyk di KCCP nya (special case, misal port lu kepake buat hal lain, ganti aja angka nya) > apply changes <a href="https://raw.githubusercontent.com/SLAVUSworks/KanColle-Indonesia-Patch-KCCP/development/Non-Game%20Assets/KC%20-%20Install%20Desktop/B.7.png">(Gambar)</a></li>
 <li>B.8 = Pastikan switchyomega nya jalan pada mode proxy</li>
 <li>B.9 = Pada ekstensi KC3 nya, klik play game</li>
 <li>B.10 = Buka Inspect mode/Klik F12</li>
@@ -60,10 +60,11 @@ Untuk proses Instalasi/Patching sama persis dengan [KanColle-English-Patch-KCCP]
 
 ### Desktop - Linux
 
+Segera !
 
 ### Android
 
-
+Segera !
 
 ## Special Thanks
 To Tibo for implementing new ways to patch the game's textures with KCCacheProxy,\
