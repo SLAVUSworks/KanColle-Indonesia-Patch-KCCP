@@ -34,12 +34,11 @@ Untuk proses Instalasi/Patching sama persis dengan [KanColle-English-Patch-KCCP]
 ### Desktop - Windows
 <ul>
 <h3>Bahan </h3>
-<li>> <a href="https://chromewebstore.google.com/detail/kancolle-command-center-%E6%94%B9/hkgmldnainaglpjngpajnnjfhpdjkohh" target="_blank" rel="noopener noreferrer">KanColle Command Center</a></li>
-<li>> <a href="https://chromewebstore.google.com/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif" target="_blank" rel="noopener noreferrer">Proxy SwitchOmega</a></li>
-<li>> <a href="https://github.com/Tibowl/KCCacheProxy/releases" target="_blank" rel="noopener noreferrer">KCCache Proxy</a></li>
-<li>> <a href="https://github.com/SLAVUSworks/KanColle-Indonesia-Patch-KCCP/tree/master" target="_blank" rel="noopener noreferrer">KanColle-Indonesia-Patch-KCCP Master</a></li>
-<li>> VPN Region Jepang (Untuk yang belum pernah register KC), Rekomendasi; TunnelBear, OpenVPN</li>
-<li></li>
+<li><a href="https://chromewebstore.google.com/detail/kancolle-command-center-%E6%94%B9/hkgmldnainaglpjngpajnnjfhpdjkohh" target="_blank" rel="noopener noreferrer">KanColle Command Center</a></li>
+<li><a href="https://chromewebstore.google.com/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif" target="_blank" rel="noopener noreferrer">Proxy SwitchOmega</a></li>
+<li><a href="https://github.com/Tibowl/KCCacheProxy/releases" target="_blank" rel="noopener noreferrer">KCCache Proxy</a></li>
+<li><a href="https://github.com/SLAVUSworks/KanColle-Indonesia-Patch-KCCP/tree/master" target="_blank" rel="noopener noreferrer">KanColle-Indonesia-Patch-KCCP Master</a></li>
+<li>VPN Region Jepang (Untuk yang belum pernah register KC), Rekomendasi; TunnelBear, OpenVPN</li>
 <h3>Step</h3>
 <b>↓ Skip jika sudah punya akun DMM dan sudah ter-register KanColle ↓</b>
 <li>A.1 = Koneksikan VPN Jepang (Wajib!)</li>
