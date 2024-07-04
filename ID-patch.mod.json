@@ -1,7 +1,7 @@
 {
-  "name": "KanColle Indonesia Patch",
-  "version": "3.22.16",
-  "authors": ["Agha Slavus", "Uteru-teru"],
+  "name": "SBcR Indonesia KanColle Patch",
+  "version": "3.22.17",
+  "authors": ["SBcR_ID Team"],
   "requireScripts": true,
   "url": "https://github.com/SLAVUSworks/KanColle-Indonesia-Patch-KCCP",
   "updateUrl": "https://raw.githubusercontent.com/SLAVUSworks/KanColle-Indonesia-Patch-KCCP/development/ID-patch.mod.json",
