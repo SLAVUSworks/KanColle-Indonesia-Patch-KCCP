@@ -32,7 +32,7 @@ Untuk proses Instalasi/Patching sama persis dengan [KanColle-English-Patch-KCCP]
 ## Cara Installasi/Patching (Bahasa Indonesia)
 
 ### Desktop - Windows
-<ol>
+<ul>
 <h3>Bahan </h3>
 <li>> <a href="https://chromewebstore.google.com/detail/kancolle-command-center-%E6%94%B9/hkgmldnainaglpjngpajnnjfhpdjkohh" target="_blank" rel="noopener noreferrer">KanColle Command Center</a></li>
 <li>> <a href="https://chromewebstore.google.com/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif" target="_blank" rel="noopener noreferrer">Proxy SwitchOmega</a></li>
@@ -63,7 +63,14 @@ Untuk proses Instalasi/Patching sama persis dengan [KanColle-English-Patch-KCCP]
 <li>B.9 = Pada ekstensi KC3 nya, klik play game</li>
 <li>B.10 = Buka Inspect mode/Klik F12</li>
 <li>B.11 = Cari menu tab KanColle (Gambar B.11)</li>
-</ol>
+</ul>
+
+### Desktop - Linux
+
+
+### Android
+
+
 
 ## Special Thanks
 To Tibo for implementing new ways to patch the game's textures with KCCacheProxy,\
