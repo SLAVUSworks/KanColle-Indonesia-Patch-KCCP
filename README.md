@@ -1,17 +1,11 @@
 # Project KC Patch Indonesia
 <small>a &nbsp;p r o j e c t &nbsp;b y</small>
 
-<p class="tengahbang">
+<p align="center" width="100%">
     <img src="https://github.com/SLAVUSworks/KanColle-Indonesia-Patch-KCCP/blob/development/Non-Game%20Assets/SBcRIDKCP.png?raw=true" alt="centered image" width="50%" />
 </p>
 
-<p class="tengahbang"><small>S l a v u s&nbsp; × &nbsp;B c R &nbsp;I n d o n e s i a &nbsp;K a n C o l l e &nbsp;P a t c h</small></p>
-
-<style>
-.tengahbang {
-    text-align: center;
-}
-</style>
+<p align="center" width="100%"><small>S l a v u s&nbsp; × &nbsp;B c R &nbsp;I n d o n e s i a &nbsp;K a n C o l l e &nbsp;P a t c h</small></p>
 
 ## Kilas
 
@@ -45,14 +39,14 @@ Untuk proses Instalasi/Patching sama persis dengan [KanColle-English-Patch-KCCP]
 <li>A.2 = Ganti Timezone Device ke Region Jepang (Wajib!)</li>
 <li>A.3 = Register akun DMM [https://accounts.dmm.com/en/welcome/signup/email]</li>
 <li>A.4 = Masuk ke menu DMM Games [https://games.dmm.com/]</li>
-<li>A.5 = Cari 艦隊これくしょん -艦これ- [https://games.dmm.com/detail/kancolle]</li>
+<li>A.5 = Akses 艦隊これくしょん -艦これ- Tanpa SSL/Https atau dalam mode http [http://games.dmm.com/detail/kancolle]</li>
 <li>A.6 = Mulai Game </li>
 <li>A.7 = Isi biodata (Bingung, translate ajh www)</li>
 <li>A.3 = Lanjut Buka game sampai milih server (raba raba aja bahasa jepang nya atau pake translate kalau bingung)</li>
 <b>↑ Skip jika sudah punya akun DMM dan sudah ter-register KanColle ↑</b>
 <li>B.0 = Pastikan bahan bahan diatas sudah ada semua.</li>
 <li>B.1 = Masuk menu settings KC3</li>
-<li>B.2 = Cari DMM Regional Block (Gambar B.2)</li>
+<li>B.2 = Cari DMM Regional Block</li>
 <li>B.3 = Install KCCacheProxy</li>
 <li>B.4 = Buka menu settings KCCP (Gambar B.4) (Untuk KCCP Running tiap startup, bisa diliat di tray windows)</li>
 <li>B.5 = Extract KCCP Patch English</li>
