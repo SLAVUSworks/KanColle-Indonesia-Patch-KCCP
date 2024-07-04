@@ -2,7 +2,7 @@
 <small>a &nbsp;p r o j e c t &nbsp;b y</small>
 
 <p align="center" width="100%">
-    <img src="https://github.com/SLAVUSworks/KanColle-Indonesia-Patch-KCCP/blob/development/Non-Game%20Assets/SBcRIDKCP.png?raw=true" alt="centered image" width="50%" />
+    <img src="https://github.com/SLAVUSworks/KanColle-Indonesia-Patch-KCCP/blob/development/Non-Game%20Assets/banner.png?raw=true" alt="centered image" width="50%" />
 </p>
 
 <p align="center" width="100%"><small>S l a v u s&nbsp; × &nbsp;B c R &nbsp;I n d o n e s i a &nbsp;K a n C o l l e &nbsp;P a t c h</small></p>
@@ -66,6 +66,95 @@ Segera !
 
 Segera !
 
+## Kontributor
+
+
+<div style="display: flex; justify-content: space-around;">
+
+  <div>
+    <h3>Agha Slavus</h3>
+    <a href="https://www.facebook.com/aghaslavus">
+      <img src="https://img.shields.io/badge/Facebook-1877F2?style=flat&logo=facebook&logoColor=white" alt="Facebook">
+    </a>
+    <a href="https://www.instagram.com/aghaslavus">
+      <img src="https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white" alt="Instagram">
+    </a>
+    <a href="https://x.com/AghaSlavus">
+      <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white" alt="Twitter">
+    </a>
+    <a href="https://www.youtube.com/channel/UCMZ4qS5Ilu_G0kaJyfZ06nA">
+      <img src="https://img.shields.io/badge/Youtube-FF0000?style=flat&logo=youtube&logoColor=white" alt="Youtube">
+    </a>
+          <img src="https://img.shields.io/badge/aghaslavus-5865F2?style=flat&logo=discord&logoColor=white" alt="Discord">
+  </div>
+
+
+  <div>
+    <h3>Febbil Octaviana</h3>
+    <a href="https://www.facebook.com/febbil.fiberhome.1">
+      <img src="https://img.shields.io/badge/Facebook-1877F2?style=flat&logo=facebook&logoColor=white" alt="Facebook">
+    </a>
+    <a href="https://www.github.com/febbilFHKuromorimine">
+      <img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white" alt="GitHub">
+    </a>
+    <a href="https://www.instagram.com/febbiloctaviana21">
+      <img src="https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white" alt="Instagram">
+    </a>
+    <a href="https://www.telegram.com/febbilfiberhome21">
+      <img src="https://img.shields.io/badge/Telegram-26A5E4?style=flat&logo=telegram&logoColor=white" alt="Telegram">
+    </a>
+    <img src="https://img.shields.io/badge/febbilFiberhomeKuromorimine212-5865F2?style=flat&logo=discord&logoColor=white" alt="Discord">
+
+  </div>
+
+</div>
+
+<div style="display: flex; justify-content: space-around;">
+  <div>
+    <h3>Hanief</h3>
+    <a href="https://www.facebook.com/ahmad.h.alfaruq">
+      <img src="https://img.shields.io/badge/Facebook-1877F2?style=flat&logo=facebook&logoColor=white" alt="Facebook">
+    </a>
+    <a href="https://www.instagram.com/h17hunter">
+      <img src="https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white" alt="Instagram">
+    </a>
+    <a href="https://x.com/Hanief171">
+      <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white" alt="Twitter">
+    </a>
+    <a href="https://www.youtube.com/@H17Hunter">
+      <img src="https://img.shields.io/badge/Youtube-FF0000?style=flat&logo=youtube&logoColor=white" alt="Youtube">
+    </a>
+          <img src="https://img.shields.io/badge/H17hunter-5865F2?style=flat&logo=discord&logoColor=white" alt="Discord">
+  </div>
+  <div>
+    <h3>Terukaze1939</h3>
+    <a href="https://www.facebook.com/terukaze1939">
+      <img src="https://img.shields.io/badge/Facebook-1877F2?style=flat&logo=facebook&logoColor=white" alt="Facebook">
+    </a>
+    <a href="https://www.github.com/terukaze1939">
+      <img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white" alt="GitHub">
+    </a>
+  </div>
+    <div>
+      <h3>Sera</h3>
+      <a href="https://www.facebook.com/profile.php?id=100025118892843">
+        <img src="https://img.shields.io/badge/Facebook-1877F2?style=flat&logo=facebook&logoColor=white" alt="Facebook">
+      </a>
+      <a href="https://www.instagram.com/learn_history_with_kancolle">
+        <img src="https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white" alt="Instagram">
+      </a>
+    </div>
+        <div>
+      <h3>Suprakto el Aleww</h3>
+      <a href="https://www.instagram.com/ligmaleq">
+        <img src="https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white" alt="Instagram">
+      </a>
+    </div>
+</div>
+
+
+
+
 ## Special Thanks
 To Tibo for implementing new ways to patch the game's textures with KCCacheProxy,\
 as well as for making some code specially to patch raw text in a stable way.\
@@ -74,3 +163,4 @@ To Amelek for the chuuha/taiha cut-in texture jigsaw splitter.\
 To Globalnet for the quick updater, and for general technical help.\
 To the EN wiki staff and the kc3 staff for freely providing a good part of the translations.\
 To all the others in the Discord server for regularly suggesting new things to fix or translate in the patch.
+
