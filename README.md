@@ -1,4 +1,4 @@
-# Project KC Patch Indonesia
+# Project KC Patch Indonesia [![Saweria.co](https://raw.githubusercontent.com/SLAVUSworks/KanColle-Indonesia-Patch-KCCP/development/Non-Game%20Assets/saweriabtn.png)](https://saweria.co/slavusworks)
 <small>a &nbsp;p r o j e c t &nbsp;b y</small>
 
 <p align="center" width="100%">
