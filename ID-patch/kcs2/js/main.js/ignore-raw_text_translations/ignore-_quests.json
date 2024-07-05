@@ -1036,7 +1036,7 @@
   "一航戦任務：旗艦「赤城改二(改二戊)」第一装備スロに「流星改(一航戦)」※練度maxを搭載し、\n「流星改」x4「彩雲」x1「九七式艦攻」x2廃棄、弾薬x2800、ボーキ9000、熟練搭乗員x2を準備せよ！": "Memiliki 2800 Amunisi, 9000 Bauksit dan 2 Awak Kru Terlatih. Tetapkan Akagi Kai Ni sebagai sekretaris dengan a\n>> Ryuusei Kai (CarDiv 1) di slot pertamanya. Memilah 4 Ryuusei Kai, Saiun dan 2 Pesawat Pengebom Torpedo Tipe 97",
   "_quest_id_621": "_kode_pencarian_F89",
   "陸戦用装備の艦載運用研究": "Riset Operasi Peralatan Berbasis Darat di Kapal",
-  "第一艦隊旗艦軽巡級の第一装備スロに「7.7mm機銃」装備。「25mm単装機銃」x2、「ドラム缶(輸送\n用)」x2、「12cm30連装噴進砲」x1を廃棄。弾薬x1,700、開発資材x30、高速建造材x10を準備せよ！": "Memiliki 1700 Amunisi, 30 Mat. Pen. dan 10 Flamethrower. CL(T)/CT sebagai kedua. dengan 7.7mm\nSenapan Mesin di slot 1. Pilah 2 Autocannon Single 25mm, 2 Drum Can, Roket 12cm 30t.",
+  "第一艦隊旗艦軽巡級の第一装備スロに「7.7mm機銃」装備。「25mm単装機銃」x2、「ドラム缶(輸送\n用)」x2、「12cm30連装噴進砲」x1を廃棄。弾薬x1,700、開発資材x30、高速建造材x10を準備せよ！": "Memiliki 1700 Amunisi, 30 Mat. Pen. dan 10 Flamethrower. CL(T)/CT sebagai kedua. dengan \n7.7mm Senapan Mesin di slot 1. Pilah 2 Autocannon Single 25mm, 2 Drum Can, Roket 12cm 30t.",
   "_quest_id_622": "_kode_pencarian_F19",
   "機種転換": "Model Conversion",
   "「九七式艦攻(村田隊)」搭載「翔鶴」を秘書艦にして、新たに「天山」を2つ廃棄！": "Tetapkan Shoukaku sebagai sekretaris. Lengkapi dia dengan Pesawat Pengebom Torpedo Tipe 97 (Skuadron Murata).\nMemilah 2 Tenzan.",
