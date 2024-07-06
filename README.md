@@ -25,23 +25,10 @@ Untuk proses Instalasi/Patching sama persis dengan [KanColle-English-Patch-KCCP]
 
 ## Cara Installasi/Patching (Bahasa Indonesia)
 
-<ul>
-  <li>
-    <a href="https://terukaze1939.github.io/tutorial/2024/07/04/cara-install-kancolle-indonesia-patch-kccp-windows.html" target="_blank">
-      <h3>Desktop - Windows</h3>
-    </a>
-  </li>
-  <li>
-    <a href="https://terukaze1939.github.io/tutorial/2024/07/04/cara-install-kancolle-indonesia-patch-kccp-linux.html" target="_blank">
-      <h3>Desktop - Linux</h3>
-    </a>
-  </li>
-  <li>
-    <a href="#">
-      <h3>Android (Segera)</h3>
-    </a>
-  </li>
-</ul>
+
+- ### [Desktop - Windows](https://terukaze1939.github.io/tutorial/2024/07/04/cara-install-kancolle-indonesia-patch-kccp-windows.html)
+- ### [Desktop - Linux](https://terukaze1939.github.io/tutorial/2024/07/04/cara-install-kancolle-indonesia-patch-kccp-linux.html)
+- ### Android (Segera)
 
 ## Kontributor
 
