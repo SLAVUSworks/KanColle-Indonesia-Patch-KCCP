@@ -56,4 +56,4 @@ To all the others in the Discord server for regularly suggesting new things to f
 
 | Another Special Thanks :3 |
 |-------|
-| <a href="https://www.facebook.com/nicolas.a.susilo" target="_blank">Nicolas A.S</a> - <a href="https://www.facebook.com/profile.php?id=10008177224733" target="_blank">Reihan</a> - <a href="https://www.instagram.com/zunaz32/" target="_blank">Zunaz32</a> - <a href="https://www.facebook.com/profile.php?id=61550250496026" target="_blank">Amada Rikuhachi</a> - <a href="https://www.instagram.com/scotia_ina" target="_blank">scotia_ina</a>|
+| <a href="https://www.facebook.com/nicolas.a.susilo" target="_blank">Nicolas A.S</a> - <a href="https://www.facebook.com/profile.php?id=100081772247333" target="_blank">Reihan</a> - <a href="https://www.instagram.com/zunaz32/" target="_blank">Zunaz32</a> - <a href="https://www.facebook.com/profile.php?id=61550250496026" target="_blank">Amada Rikuhachi</a> - <a href="https://www.instagram.com/scotia_ina" target="_blank">scotia_ina</a>|
