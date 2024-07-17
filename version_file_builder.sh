@@ -1,8 +1,5 @@
 #!/bin/bash
 
-
-version_file_name="version.json"
-
 diff="diff.txt"
 
 
@@ -52,6 +49,6 @@ objects="{\"version\": \"$version\", \"del\": ["$strDel"], \"add\": ["$strAdd"]}
 # simpan object menjadi file
 echo "$objects" > new_object.json
 
-jq '. += [inputs]' version-dev.json new_object.json > temp.json && mv temp.json version-dev.json
+jq '. += [inputs]' version.json new_object.json > temp.json && mv temp.json version.json
 
 rm new_object.json
