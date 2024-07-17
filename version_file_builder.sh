@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-version_file_name="version-test.json"
+version_file_name="version.json"
 
 diff="diff.txt"
 
