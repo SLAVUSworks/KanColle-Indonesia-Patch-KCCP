@@ -41,8 +41,8 @@
 	"正規空母は配備できません。": "Tidak bisa menggunakan CV.",
 	"軽空母を２隻以上配備できません。": "Tidak bisa menggunakan 2 CVLs atau lebih.",
 
-	"空母２隻以上の配備が必要です。": "Harus menggunakan Setidaknya 2 CV(L)s.",
-	"空母５隻以上は配備できません。": "Tidak bisa menggunakan 2 CVLs atau lebih.",
+	"空母２隻以上の配備が必要です。": "Harus menggunakan Setidaknya 2\nCV(L)s.",
+	"空母５隻以上は配備できません。": "Tidak bisa menggunakan 2 CVLs \natau lebih.",
 	"戦艦３隻以上は配備できません。": "Tidak bisa menggunakan 3 BBs atau lebih.",
 
 	"dummy": "forNoComma"
