@@ -1,23 +1,26 @@
 {
-  "日本列島沖/呉Q基地": "Lepas pantai Jepang / Kure Q-Base",
-  "Q基地へ": "Menuju Q-Base",
-  "敵前線環礁泊地の機動部隊\nを殲滅するため作戦を実施\nする！Q基地で改良特四式\n内火艇を受領せよ！": "Lakukan operasi untuk menghancurkan gugus tugas di tempat berlabuh atol garis depan musuh! Dapatkan Tank Amfibi Tipe 4 Khusus di Q-Base!",
-  "九州南方沖/マリアナ諸島方面": "Di selatan Kyushu / Kepulauan Mariana",
-  "竜巻作戦": "Operasi Tatsumaki",
-  "「竜巻作戦」を発動する！\nウルシー環礁まで前進した\n敵機動部隊の航空母艦を本\n作戦で痛撃する！出撃！": "Luncurkan \"Operasi Tatsumaki\"! Operasi ini akan memberikan pukulan keras pada kapal induk gugus tugas musuh yang telah maju ke Ulithi Atoll! Serangan mendadak!",
-  "マリアナ諸島/ウルシー環礁沖": "Lepas Kepulauan Mariana / Atol Ulithi",
-  "泊地突入！龍巻作戦": "Masuk ke Anchorage!\nOperasi Tatsumaki",
-  "「竜巻作戦」を発展させた\n「龍巻作戦」で、今度こそ\n環礁泊地の敵空母群を殲滅\nする！暁の環礁に勝利を！": "Dalam Operasi Tatsumaki yang diperluas, kali ini, kami akan menghancurkan kelompok kapal induk musuh di atol! Raih kemenangan atas atol fajar!",
-  "サイパン沖/マーシャル諸島沖正面": "Di lepas Front Saipan / Kepulauan Marshall",
-  "新Z作戦改": "Operasi Baru Z Kai",
-  "竜巻作戦によって前線を大\nきく押し戻した。今こそ、\n総力決戦「新Z作戦改」で\n敵を撃滅する！全力出撃！": "Operasi Tatsumaki telah memundurkan garis depan secara signifikan. Sekaranglah waktunya untuk menghancurkan musuh dalam pertempuran menentukan \"Operasi Baru Z Kai\"! Serangan mendadak dengan kekuatan penuh!",
-  "瀬戸内海航行中……まもなく呉Q基地沖です。": "Berlayar di Laut Pedalaman Seto...\n... Akan segera keluar dari Kure Q-Base.",
-  "北方警備、第五艦隊！大湊より出撃す！": "Patroli Utara, Armada Kelima!\nSerangan mendadak dari Ominato!",
-  "Q基地沖に到着しました。作戦準備機材を揚陸、\n「特四式内火艇」部隊を強化を実地します！": "Kami telah mencapai Q-Base. Bantuan\ndari 'Tank Amfibi Tipe 4 Khusus'\n     unit akan dilakukan!",
-  "敵水上艦隊の牽制を行う！前進せよ！": "Jaga armada permukaan musuh tetap terkendali!\nMaju kedepan!",
-  "第六艦隊「竜巻作戦」部隊、出撃ッ！": "Unit 'Operasi Tatsumaki' Armada Keenam, serangan mendadak!",
-  "機動部隊、出撃！出撃中の敵空母を撃破せよ！\n対潜警戒も厳とせよ！": "Gugus tugas, serangan mendadak!\n Hancurkan kapal induk musuh yang masuk!\n     Ambil tindakan anti-kapal selam yang ketat!",
-  "「龍巻作戦」部隊、出撃！敵環礁泊地に突入せよ！": "Unit 'Operasi Tatsumaki', serangan mendadak!\nSerang pelabuhan atol musuh!",
-  "ウェーキ島への補給輸送作戦を実施するッ！\n敵勢力圏内だ…対空対水上対潜警戒を厳に！": "Melakukan operasi penyediaan dan pengangkutan ke\nPulau Bangun! Kami berada di wilayah musuh...\n     pertahankan kewaspadaan menyeluruh!",
+	"ケルト海/イギリス海峡": "Laut Celtic / Saluran Inggris",
+	"発動！カタパルト作戦": "Commence!\nOperasi Ketapel",
+	"大西洋戦域各方面において\n深海勢力が侵食しないよう\n各港湾の警備と制圧を実施\nする。艦隊、出撃せよ！": "Di berbagai sektor teater Atlantik cegahlah kekuatan Abyssal agar tidak menyerbu. Tegakkan keamanan dan kontrol setiap pelabuhan. Armada, Sortie!",
+	"ジブラルタル/アルボラン海": "Gibraltar / Laut Alboran",
+	"メルセルケビール海戦": "Pertempuran Mers-el-Kébir",
+	"艦隊を地中海方面に展開！\n北アフリカの要港オラン港\n方面の潜在敵艦隊を奇襲、\nこれの無力化を実施せよ！": "Kerahkan Armada ke daerah Mediterania! Luncurkan serangan mendadak pada armada musuh potensial di pelabuhan utama Oran di Afrika Utara dan menetralisir mereka!",
+	"北大西洋/フリータウン/ダカール": "Atlantik Utara / Freetown / Dakar",
+	"激突！ダカール沖海戦": "Bentrok! Pertempuan Dakar",
+	"大西洋方面の艦隊戦力を結\n集、フリータウンへ展開！\n同地よりダカールの敵勢力\nを強襲、これを撃滅せよ！": "Konsentrasikan kekuatan Armada di wilayah Atlantik dan sebarkan ke Freetown! Dari sana, luncurkan serangan yang kuat terhadap pasukan musuh di Dakar dan musnahkan mereka!",
+
+	"e-4_zone": "e-4_zone",
+	"e-4_operation": "e-4_operation",
+	"e-4_description": "e-4_description",
+
+  "e-5_zone": "e-5_zone",
+	"e-5_operation": "e-5_operation",
+	"e-5_description": "e-5_description",
+
+	"カタパルト作戦、発動！\n欧州要港の潜在深海戦力を無力化せよ！": "Meluncurkan Operasi Ketapel\nMenetralisir potensi Abyssal di pelabuhan-pelabuhan utama di Eropa!",
+
+	"Force H 地中海に出撃！ オラン港方面へ展開！\n潜在脅威を無力化、カタパルト作戦を完遂せよ。": "Pasukan H, sortie ke laut Mediterania!\nPenyebaran menuju Oran! Netralisir ancaman\n     dan menyelesaikan Operasi Ketapel.",
+
+	"Operation Menace 発動！\nダカール港の潜在敵戦力を無力化せよ！": "Operasi Ancaman diluncurkan!\nMenetralisir ancaman musuh di pelabuhan Dakar!",
   "dummy": "forNoComma"
 }

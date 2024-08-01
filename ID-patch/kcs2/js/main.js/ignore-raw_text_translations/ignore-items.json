@@ -176,5 +176,10 @@
     "_item_id_99": "_item_id_99",
     "白たすき": "Tasuki Putih",
     "旗艦に付与されます(既に同様 \nのものが付与されている場合は\n上書きして付与されます)。　 \n※艦娘戦闘力が微上昇します。": "Ditugaskan ke andalan (Jik\na barang serupa sudah ada\ntelah ditugaskan, itu aka\nn terjadi ditimpa).※ Sedik\nit meningkatkan　kekuatan\ntempur dari　 gadis kapal.",
+    "_item_id_100": "_item_id_100",
+	"海外艦最新技術": "Teknologi Baru Kapal Luar Negeri.",
+	"海外艦の大型改装や海外艦兵装\nの装備改修更新などに使用する\n艤装に関する最新技術です。  \n※工廠での大型改装や装備改修\n　任務などで使用します。": "Ini adalah teknologi perlengkapan terbaru yang digunakan untuk renovasi skala besar kapal-kapal di luar negeri dan untuk meningkatakan dan memperbaiki persenjataan mereka\n※ Teknologi ini digunakan untuk renovasi skala besar dan peningkatan peralatan.",
+
+
     "dummy": "forNoComma"
 }
