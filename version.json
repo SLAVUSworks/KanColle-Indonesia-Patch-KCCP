@@ -283,5 +283,34 @@
       "ID-patch/kcs2/resources/useitem/card/100.png/patched.png",
       "version_file_builder.sh"
     ]
+  },
+  {
+    "version": "3.22.18.2",
+    "del": [],
+    "add": [
+      "ID-patch.mod.json",
+      "ID-patch/kcs2/img/port/port_skin_3k_huki.png/patched/port_skin_3k_huki_001.png",
+      "ID-patch/kcs2/img/port/port_skin_3k_huki.png/patched/port_skin_3k_huki_002.png",
+      "ID-patch/kcs2/img/port/port_skin_3k_huki.png/patched/port_skin_3k_huki_003.png",
+      "ID-patch/kcs2/img/sally/sally_event.png/patched/sally_event_004.png",
+      "ID-patch/kcs2/img/sally/sally_event.png/patched/sally_event_008.png",
+      "ID-patch/kcs2/img/sally/sally_event.png/patched/sally_event_009.png",
+      "ID-patch/kcs2/img/sally/sally_event.png/patched/sally_event_010.png",
+      "ID-patch/kcs2/img/sally/sally_event.png/patched/sally_event_011.png",
+      "ID-patch/kcs2/img/sally/sally_event.png/patched/sally_event_012.png",
+      "ID-patch/kcs2/img/sally/sally_event.png/patched/sally_event_019.png",
+      "ID-patch/kcs2/img/sally/sally_event.png/patched/sally_event_027.png",
+      "ID-patch/kcs2/img/sally/sally_event.png/patched/sally_event_028.png",
+      "ID-patch/kcs2/img/sally/sally_event.png/patched/sally_event_029.png",
+      "ID-patch/kcs2/img/sally/sally_event.png/patched/sally_event_030.png",
+      "ID-patch/kcs2/img/sally/sally_event.png/patched/sally_event_031.png",
+      "ID-patch/kcs2/img/sally/sally_event.png/patched/sally_event_032.png",
+      "ID-patch/kcs2/img/sally/sally_event.png/patched/sally_event_033.png",
+      "ID-patch/kcs2/img/sally/sally_event.png/patched/sally_event_034.png",
+      "ID-patch/kcs2/img/sally/sally_event.png/patched/sally_event_035.png",
+      "ID-patch/kcs2/img/sally/sally_event.png/patched/sally_event_036.png",
+      "ID-patch/kcs2/img/title/title2.png/patched.png",
+      "ID-patch/kcs2/js/main.js/ignore-raw_text_translations/ignore-items.json"
+    ]
   }
 ]
