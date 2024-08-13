@@ -3,7 +3,7 @@
   "length_limit_scale_______": "panjang_batas_skala_______",
   "length_limit_scale___________": "panjang_batas_skala___________",
   "_item_id_1": "_item_id_1",
-  "高速修復材":  "Ember Perbaikan",
+  "高速修復材": "Ember Perbaikan",
   "入渠時間を短縮できる。": "Mengurangi waktu perbaikan.",
   "_item_id_2": "_item_id_2",
   "高速建造材": "Flamethrower",
@@ -179,5 +179,8 @@
   "_item_id_100": "_item_id_100",
   "海外艦最新技術": "Tek. K. Luar Neg. Terbaru",
   "海外艦の大型改装や海外艦兵装\nの装備改修更新などに使用する\n艤装に関する最新技術です。  \n※工廠での大型改装や装備改修\n　任務などで使用します。": "Ini adalah teknologi perlengkapan terbaru untuk remodel skala besar dari kapal di seberang lautan dan untuk memperbaiki & meningkatkan persenjataan mereka.\n※ Digunakan untuk remodel skala besar & peningkatan peralatan.",
+  "_item_id_101": "_item_id_101",
+  "夜間熟練搭乗員": "Night Skilled Crew Member",
+  "夜間作戦適性を持ち、その上で\n厳しい訓練を重ねた、夜間作戦\n可能な精鋭の熟練航空機搭乗員\nです。(※部隊編成時に同航空隊\nと一体化して、消滅します)": "A unit with proficiency in night operations, composed of elite and skilled aircrew who have undergone rigorous training for night missions.\n(※When assigned to a unit, they will integrate with the squadron and disappear.)",
   "dummy": "forNoComma"
 }

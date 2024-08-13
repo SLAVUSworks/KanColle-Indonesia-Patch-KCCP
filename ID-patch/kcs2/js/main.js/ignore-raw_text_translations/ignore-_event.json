@@ -9,18 +9,28 @@
 	"激突！ダカール沖海戦": "Bentrok! Pertempuan Dakar",
 	"大西洋方面の艦隊戦力を結\n集、フリータウンへ展開！\n同地よりダカールの敵勢力\nを強襲、これを撃滅せよ！": "Konsentrasikan kekuatan Armada di wilayah Atlantik dan sebarkan ke Freetown! Dari sana, luncurkan serangan yang kuat terhadap pasukan musuh di Dakar dan musnahkan mereka!",
 
-	"e-4_zone": "e-4_zone",
-	"e-4_operation": "e-4_operation",
-	"e-4_description": "e-4_description",
+	"太平洋南部/ダバオ沖/ビアク島沖": "Pasifik Selatan / Pantai Lepas Davao / Pantai Lepass Biak Island",
+	"ビアク沖遭遇戦": "Keterlibatan di luar Biak",
+	"太平洋南部戦域への敵侵攻\n艦隊を捕捉、タウイタウイ\nからの増援により、これを\n撃滅せよ！艦隊、出撃！": "Cegat armada invasi musuh di teater Pasifik Selatan dan musnahkan dengan bala bantuan dari Tawi-Tawi! Armada, Sortie!",
 
-  "e-5_zone": "e-5_zone",
-	"e-5_operation": "e-5_operation",
-	"e-5_description": "e-5_description",
+	"ラバウル沖/珊瑚海方面": "Di lepas pantai Rabaul / Kawasan Laut Karang",
+	"第二次珊瑚海海戦": "Pertempuran Kedua di Laut Karang",
+	"太平洋戦域の反攻作戦、新\nMO作戦を実施する！\n我が精鋭機動部隊、出撃！\n暁の水平線に勝利を！": "Memulai Serangan balasan di teater Pasifik, Operasi MO yang baru! Armada elit kami bergerak, serangan mendadak! Mengukir kemenangandi cakrawala fajar!",
+
 
 	"カタパルト作戦、発動！\n欧州要港の潜在深海戦力を無力化せよ！": "Meluncurkan Operasi Ketapel\nMenetralisir potensi Abyssal di pelabuhan-pelabuhan utama di Eropa!",
 
 	"Force H 地中海に出撃！ オラン港方面へ展開！\n潜在脅威を無力化、カタパルト作戦を完遂せよ。": "Pasukan H, sortie ke laut Mediterania!\nPenyebaran menuju Oran! Netralisir ancaman\n     dan menyelesaikan Operasi Ketapel.",
 
 	"Operation Menace 発動！\nダカール港の潜在敵戦力を無力化せよ！": "Operasi Ancaman diluncurkan!\nMenetralisir ancaman musuh di pelabuhan Dakar!",
-  "dummy": "forNoComma"
+
+
+	"ビアク島救援の前線航空基地となるソロンへの\n兵站輸送作戦を敢行する！ 艦隊、警戒を厳に！": "Kami sedang melaksanakan misi pengangkutan ke Sorong, di mana pangkalan udara depan untuk bantuan Pulau Biak akan berada! Armada, tetap waspada!",
+	"連合艦隊主力、タウイタウイ泊地を抜錨ッ！\nビアク島方面の救援を実施する！ 対潜警戒を厳に。": "Armada Utama Armada Gabungan lepaskan jangkar\ndari Tawi-Tawi! Laksanakan operasi bantuan\n     ke pulau Biak! Pertahankan kewaspadaan anti-sub.",
+	"敵勢力圏内に突入する！ 対艦戦闘用意ッ！\n艦隊、増速！ 我に続け！": "Kita akan memasuki perarian yang dikuasi musuh!\nBersiaplah untuk pertempuran anti-kapal! Armada,\n     tingkatkan kecepatan, Ikuti aku!",
+
+	"MO機動部隊、出撃！珊瑚海方面に進出する。\n対潜、対空警戒を厳とせよッ！": "Armada Mobile MO,Sortie! Maju ke arah\ndaerah Laut Karang. Pertahankan kewaspadaan\n     anti-kapal selam dan anti-kapal udara yang ketat!",
+	"MO機動部隊、全艦隊戦闘用意ッ！\n敵機動部隊を捕捉、これを撃滅する！": "Armada Mobile MO, siapkan semua armada untuk\nbertempur! Cegat pasukan bergerak musuh\n     dan musnahkan mereka!",
+
+	"dummy": "forNoComma"
 }
