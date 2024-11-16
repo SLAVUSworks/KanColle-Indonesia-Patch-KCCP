@@ -656,5 +656,14 @@
       "ID-patch/kcs2/js/main.js/ignore-raw_text_translations/ignore-music.json",
       "version.json"
     ]
+  },
+  {
+    "version": "3.22.21.1",
+    "del": [],
+    "add": [
+      "ID-patch.mod.json",
+      "ID-patch/kcs2/img/item/item_ilist_sanma.png/patched/item_ilist_sanma_005.png",
+      "ID-patch/kcs2/img/item/item_ilist_sanma.png/patched/item_ilist_sanma_007.png"
+    ]
   }
 ]
