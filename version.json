@@ -665,5 +665,18 @@
       "ID-patch/kcs2/img/item/item_ilist_sanma.png/patched/item_ilist_sanma_005.png",
       "ID-patch/kcs2/img/item/item_ilist_sanma.png/patched/item_ilist_sanma_007.png"
     ]
+  },
+  {
+    "version": "3.22.21.2",
+    "del": [],
+    "add": [
+      "ID-patch.mod.json",
+      "ID-patch/kcs2/img/battle_result/battle_result_sanma_fes.png/patched/battle_result_sanma_fes_004.png",
+      "ID-patch/kcs2/img/common/error.png/patched.png",
+      "ID-patch/kcs2/img/item/item_ilist_sanma.png/patched/item_ilist_sanma_001.png",
+      "ID-patch/kcs2/img/remodel/remodel_main.png/patched/remodel_main_038.png",
+      "ID-patch/kcs2/img/remodel/remodel_main.png/patched/remodel_main_051.png",
+      "ID-patch/kcs2/img/title/title2.png/patched.png"
+    ]
   }
 ]
