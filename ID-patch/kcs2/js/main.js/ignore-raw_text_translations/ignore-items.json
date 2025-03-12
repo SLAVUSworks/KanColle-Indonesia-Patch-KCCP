@@ -182,5 +182,9 @@
   "_item_id_101": "_item_id_101",
   "夜間熟練搭乗員": "Anggota Kru Malam Terampil",
   "夜間作戦適性を持ち、その上で\n厳しい訓練を重ねた、夜間作戦\n可能な精鋭の熟練航空機搭乗員\nです。(※部隊編成時に同航空隊\nと一体化して、消滅します)": "Unit dengan kemahiran dalam operasi malam hari, terdiri dari awak pesawat elit dan terampil yang telah menjalani pelatihan ketat untuk misi malam hari .\n(※Ketika ditugaskan ke sebuah unit, mereka akan berintegrasi dengan skuadron dan menghilang.)",
+  "_item_id_102": "_item_id_102",
+  "航空特別増加食": "Ransum Aviasi Spesial",
+  "基地航空隊の疲労を緩和、士気\nを高める航空特別増加食です。\n※一つ消費で一航空隊(最大四個\n　中隊)に効果を発揮します。": "Sebuah makanan aviasi spesial yang menghilangkan rasa lelah dan meningkatkan moral unit udara basis darat.\n※ Konsumsi satu akan berdampak pada 1 grup LBAS (maksimal 4 slot).",
+
   "dummy": "forNoComma"
 }
