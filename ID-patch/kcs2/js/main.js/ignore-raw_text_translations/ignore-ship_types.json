@@ -27,6 +27,7 @@
   "特務艦 ": "AGS ",
   "灯台補給船 ": "AGL ",
   "南極観測船 ": "AGB ",
+  "砕氷艦 ": "AGB ",
   "特設護衛空母 ": "CVE (Sp.) ",
   "戦車揚陸艦 ": "LST ",
   "練習特務艦 ": "CT ",
@@ -58,6 +59,7 @@
   "特務艦": "AGS ",
   "灯台補給船": "AGL ",
   "南極観測船": "AGB ",
+  "砕氷艦": "AGB",
   "特設護衛空母": "CVE (Sp.) ",
   "戦車揚陸艦": "LST ",
   "練習特務艦": "CT ",
@@ -103,6 +105,8 @@
   "泊地投錨中空母群": "Grup Pengangkut Berlabuh",
   "沈没伊号潜水艦": "Kapal Selam Kelas I yang Tenggelam",
   "深海大型正規空母": "Kapal Induk Besar Abyssal",
+  "深海新鋭駆逐艦": "Elit Baru Destroyer Abyssal",
+  "砕氷巡洋艦": "Kapal Pemecah Es",
 
   "dummy": "forNoComma"
 }

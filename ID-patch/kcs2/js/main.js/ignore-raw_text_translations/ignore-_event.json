@@ -1,36 +1,34 @@
 {
-	"ケルト海/イギリス海峡": "Laut Celtic / Saluran Inggris",
-	"発動！カタパルト作戦": "Commence!\nOperasi Ketapel",
-	"大西洋戦域各方面において\n深海勢力が侵食しないよう\n各港湾の警備と制圧を実施\nする。艦隊、出撃せよ！": "Di berbagai sektor teater Atlantik cegahlah kekuatan Abyssal agar tidak menyerbu. Tegakkan keamanan dan kontrol setiap pelabuhan. Armada, Sortie!",
-	"ジブラルタル/アルボラン海": "Gibraltar / Laut Alboran",
-	"メルセルケビール海戦": "Pertempuran Mers-el-Kébir",
-	"艦隊を地中海方面に展開！\n北アフリカの要港オラン港\n方面の潜在敵艦隊を奇襲、\nこれの無力化を実施せよ！": "Kerahkan Armada ke daerah Mediterania! Luncurkan serangan mendadak pada armada musuh potensial di pelabuhan utama Oran di Afrika Utara dan menetralisir mereka!",
-	"北大西洋/フリータウン/ダカール": "Atlantik Utara / Freetown / Dakar",
-	"激突！ダカール沖海戦": "Bentrok! Pertempuan Dakar",
-	"大西洋方面の艦隊戦力を結\n集、フリータウンへ展開！\n同地よりダカールの敵勢力\nを強襲、これを撃滅せよ！": "Konsentrasikan kekuatan Armada di wilayah Atlantik dan sebarkan ke Freetown! Dari sana, luncurkan serangan yang kuat terhadap pasukan musuh di Dakar dan musnahkan mereka!",
+	"大湊警備府/津軽海峡/北海道東部": "Distrik Pertahanan Ominato / Selat Tsugaru / Timur Hokkaido",
+	"北海道防衛作戦": "Operasi Pertahanan Hokkaido",
+	"深海棲艦極東艦隊が北海道\n東部に来襲！陽動の可能性\nがあるが、各艦隊は直ちに\n迎撃せよ！艦隊、出撃ッ！": "Armada Timur Jauh Abyssal Telah Melancarkan Sebuah Serangan ke Timur Hokkaido! Tindakan Tersebut dapat Menjadi Sebuah Pengalihan, seluruh Armada harus Melakukan Intersepsi Secepatnya! Armada, sortie!",
 
-	"太平洋南部/ダバオ沖/ビアク島沖": "Pasifik Selatan / Pantai Lepas Davao / Pantai Lepass Biak Island",
-	"ビアク沖遭遇戦": "Keterlibatan di luar Biak",
-	"太平洋南部戦域への敵侵攻\n艦隊を捕捉、タウイタウイ\nからの増援により、これを\n撃滅せよ！艦隊、出撃！": "Cegat armada invasi musuh di teater Pasifik Selatan dan musnahkan dengan bala bantuan dari Tawi-Tawi! Armada, Sortie!",
+	"北海道北東沖/宗谷海峡沖": "Lepas Timurlaut Hokkaido / Lepas Selat Soya",
+ 	"音威子府防衛線": "Jalur Pertahanan Otoineppu",
+ 	"敵侵攻部隊の主力が稚内に\n上陸、南下を続けている。\n有力な増援兵力を輸送し、\n音威子府で敵を迎撃せよ！": "Pasukan Invasi Utama Musuh Mendarat di Wakkanai dan Maju ke Selatan. Kerahkan bantuan terkuat dan intersepsi musuh di Otoineppu!",
+	
+ 	"北海道北東沖/留萌沖正面/樺太南部沖": "Lepas Timurlaut Hokkaido / Lepas Rumoi / Lepas Selatan Sakhalin",
+ 	"留萌沖艦隊決戦": "Armada Tempur Penentu Lepas Rumoi",
+ 	"敵侵攻主力が留萌方面へと\n上陸を開始した！我が連合\n艦隊主力を同敵橋頭堡へと\n突入！北海道を防衛せよ！": "TPasukan Invasi Utama Musuh Mulai Mendarat di area Rumoi! Armada Utama kita akan menyonsong masuk ke pangkalan pantai musuh! Pertahankan Hokkaido!",
 
-	"ラバウル沖/珊瑚海方面": "Di lepas pantai Rabaul / Kawasan Laut Karang",
-	"第二次珊瑚海海戦": "Pertempuran Kedua di Laut Karang",
-	"太平洋戦域の反攻作戦、新\nMO作戦を実施する！\n我が精鋭機動部隊、出撃！\n暁の水平線に勝利を！": "Memulai Serangan balasan di teater Pasifik, Operasi MO yang baru! Armada elit kami bergerak, serangan mendadak! Mengukir kemenangandi cakrawala fajar!",
+	"_e4_area_name": "",
+ 	"_e4_op_name": "",
+ 	"_e4_op_description": "",
 
+	"_e5_area_name": "",
+ 	"_e5_op_name": "",
+ 	"_e5_op_description": "",
 
-	"カタパルト作戦、発動！\n欧州要港の潜在深海戦力を無力化せよ！": "Meluncurkan Operasi Ketapel\nMenetralisir potensi Abyssal di pelabuhan-pelabuhan utama di Eropa!",
+	"第百四戦隊、抜錨！\n釧路方面を哨戒せよッ！": "104th Squadron, weigh anchor!\nPatroli ke area Kushiro!",
+	"第一艦隊、警戒を厳に！\n侵攻する敵戦力を撃滅せよッ！": "Armada Pertama, jaga kewaspadaan!\nMusnahkan Pasukan Invasi Musuh!",
+	"艦隊、第三戦速！\n対潜警戒を厳にッ！": "Armada, percepat pertemupuran ketiga! Jaga kewaspadaan anti-kapal selam!",
 
-	"Force H 地中海に出撃！ オラン港方面へ展開！\n潜在脅威を無力化、カタパルト作戦を完遂せよ。": "Pasukan H, sortie ke laut Mediterania!\nPenyebaran menuju Oran! Netralisir ancaman\n     dan menyelesaikan Operasi Ketapel.",
+	"第一艦隊、警戒しつつ前進！\n第五艦隊突入を援護せよッ！": "Armada Pertamas, maju dengan waspada!\nBantu armada ke-5 menerobos!",
+ 	"第五艦隊、出撃ッ！\n稚内方面への侵攻を阻止せよ！": "Armada ke-5, sortie!\nCegah Invasi menuju Wakkanai!",
 
-	"Operation Menace 発動！\nダカール港の潜在敵戦力を無力化せよ！": "Operasi Ancaman diluncurkan!\nMenetralisir ancaman musuh di pelabuhan Dakar!",
-
-
-	"ビアク島救援の前線航空基地となるソロンへの\n兵站輸送作戦を敢行する！ 艦隊、警戒を厳に！": "Kami sedang melaksanakan misi pengangkutan ke Sorong, di mana pangkalan udara depan untuk bantuan Pulau Biak akan berada! Armada, tetap waspada!",
-	"連合艦隊主力、タウイタウイ泊地を抜錨ッ！\nビアク島方面の救援を実施する！ 対潜警戒を厳に。": "Armada Utama Armada Gabungan lepaskan jangkar\ndari Tawi-Tawi! Laksanakan operasi bantuan\n     ke pulau Biak! Pertahankan kewaspadaan anti-sub.",
-	"敵勢力圏内に突入する！ 対艦戦闘用意ッ！\n艦隊、増速！ 我に続け！": "Kita akan memasuki perarian yang dikuasi musuh!\nBersiaplah untuk pertempuran anti-kapal! Armada,\n     tingkatkan kecepatan, Ikuti aku!",
-
-	"MO機動部隊、出撃！珊瑚海方面に進出する。\n対潜、対空警戒を厳とせよッ！": "Armada Mobile MO,Sortie! Maju ke arah\ndaerah Laut Karang. Pertahankan kewaspadaan\n     anti-kapal selam dan anti-kapal udara yang ketat!",
-	"MO機動部隊、全艦隊戦闘用意ッ！\n敵機動部隊を捕捉、これを撃滅する！": "Armada Mobile MO, siapkan semua armada untuk\nbertempur! Cegat pasukan bergerak musuh\n     dan musnahkan mereka!",
+	"留萌正面に上陸中の敵艦隊発見！\n全艦突撃する！蹴散らせッ！": "Armada musuh terlihat\nmendarat di Rumoi!     \nSeluruh kapal, serang! Hancurkan mereka!",
+ 	"天塩方面の敵勢力を一掃する！\n連合艦隊、面舵一杯！前進ッ！": "Eliminasi kekuatan musuh\ndi area Teshio! Armada gabungan,     \nbergerak ke kanan! Maju!",
+ 	"敵侵攻部隊、旗艦艦隊を叩くッ！\n連合艦隊、合戦用意！我に続け！": "Pukul mundur kekuatan\narmada flagship musuh! Gabungan armada,     \nstasiun tempur! Ikuti saya!",
 
 	"dummy": "forNoComma"
 }
