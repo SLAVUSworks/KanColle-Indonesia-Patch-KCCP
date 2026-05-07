@@ -1,0 +1,7 @@
+filter - complete
+hokyu_dialog_default - needs remaster
+hokyu_dialog_default - needs remaster
+hokyu_dialog_default - needs remaster
+main - needs partial remaster
+mamiya_animation_common - complete
+rengo - complete

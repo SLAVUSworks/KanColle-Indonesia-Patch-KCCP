@@ -1,0 +1,10 @@
+{
+  "name": "SBcR Indonesia KanColle Patch",
+  "version": "3.26.0-base",
+  "authors": ["SBcR_ID Team"],
+  "requireScripts": true,
+  "url": "https://github.com/SLAVUSworks/KanColle-Indonesia-Patch-KCCP",
+  "updateUrl": "https://raw.githubusercontent.com/SLAVUSworks/KanColle-Indonesia-Patch-KCCP/master/ID-patch.mod.json",
+  "downloadUrl": "https://github.com/SLAVUSworks/KanColle-Indonesia-Patch-KCCP/archive/master.zip",
+  "size": 322823402
+}

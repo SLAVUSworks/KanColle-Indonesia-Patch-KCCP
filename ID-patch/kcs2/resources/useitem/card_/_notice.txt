@@ -1,0 +1,1 @@
+all assets from card folder without underscore
